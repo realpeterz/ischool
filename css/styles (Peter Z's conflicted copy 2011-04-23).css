@@ -1,0 +1,485 @@
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #ffffff;
+}
+
+
+img {
+border:none;
+}
+
+
+
+
+h1 {
+	font-size:18px;
+	font-weight:bold;
+	padding:0 0 10px 0;
+}
+
+
+#container { overflow:hidden; }
+
+#header {
+	margin-bottom: 10px;
+	/* margin-top:20px; */
+	position:relative;
+	margin-bottom:1.5em;
+}
+
+#icons { overflow:hidden; }
+#icons ul li {
+	float:right;
+	list-style:none;
+	margin-right:2px;
+}
+
+#icons img {
+	border:0;
+	width:16px;
+}
+
+#logo {
+	/* padding:20px 0 20px 0;
+	
+margin-top: 20px; */
+}
+
+/* top navigation */
+
+#topnav { height:98px; }
+#topnav ul { padding-left:0; /* margin-top:23px; */ margin-bottom:0; }
+#topnav #icons ul { overflow:hidden;  }
+#topnav ul li ul { z-index:100; }
+
+
+/* search box*/
+
+#search-container{
+	position:absolute;
+	bottom:50px;
+	overflow:hidden;
+	width:100%;
+}
+
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+#nav{
+	float:left;
+	width:100%;
+	list-style:none;
+	font-weight:bold;
+	position:absolute;
+	bottom:0;
+}
+#nav li{
+	list-style:none; float:left; width:24.25%;
+	float:left;
+	margin-right:1%;
+	position:relative;
+	display:block;
+}
+
+#nav li:last-child{
+	margin-right:0;
+}
+
+#nav li a{
+	display:block;
+	padding:5px;
+	color:#555;
+	/* background:#333; */
+	text-decoration:none;
+	font-size:1em;
+	/* text-shadow:0px 0px 1px rgba(102, 102, 102,0.75) */; /* Text shadow to lift it a little */
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	background:#eee;
+	text-align:center;
+}
+#nav li a:hover{
+	color:#fff;
+	background:#6b0c36; /* Solid colour fall-back */
+	background:rgba(107,12,54,0.75); /* It'll look nice semi-transparent */
+
+	/* text-decoration:underline; */
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	opacity:0; /* Set initial state to transparent */
+	-webkit-transition:0.25s linear opacity; /* Make the dropdown fade-in in Webkit */
+	min-width:100%;
+}
+#nav ul li{
+	padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	color: #fff;
+	float:none;
+	width:100%;
+	
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+	display:block;
+	
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+	opacity:1; /* Fade to opaque */
+}
+#nav li:hover a{ /* Set styles for top level when dropdown is hovered */
+	color:#fff;
+	background:#D88B16; /* Solid colour fall-back */
+	background:rgba(216,139,22,0.95); /* It'll look nice semi-transparent */
+	/* text-decoration:underline; */
+}
+#nav li:hover ul a{ /* Override some top level styles when dropdown is hovered */
+	text-decoration:none;
+	-webkit-transition:-webkit-transform 0.075s linear;
+	color:#555;
+	background:#eee;
+}
+#nav li:hover ul li a:hover{ /* Set styles for dropdown when items are hovered */
+	background:#C85625; /* Solid colour fall-back */
+	color:#fff;
+	background:rgba(200,86,37,0.95); /* It'll look nice semi-transparent */
+	/* text-decoration:underline; */
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+}
+
+
+
+
+
+
+
+
+#leftColumn {
+	background-image: url(../images/navi-bg.png);
+	background-repeat: repeat-y;
+	background-position: 18px center;
+}
+
+
+
+
+#navilist {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 0 0 0;
+}
+
+#navilist a {
+	font-size:16px;
+	display: block;
+	color: #FFFFFF;
+	line-height: 2.6em;
+	text-align: left;
+  text-decoration:none;
+	padding: 0 20px 0 60px;
+}
+
+#navilist dd a {
+	padding: 0 20px 0 45px;
+}
+
+#navilist .active a {
+	color: #fff;
+	background-image: url(../images/navi-hightlight.png);
+}
+
+#navilist dd,dl { margin: 0; 
+       }
+#navilist ul {
+    background: none repeat scroll 0 0 #CCCCCC;
+    left: 18px;
+    list-style: none outside none;
+    margin: 0;
+    padding-left: 0;
+    position: relative;
+    width: 200px;
+}
+
+#navilist dt {
+       margin:2px;
+}
+#yoga img {
+	width: 205px;
+	float: right;
+}
+
+
+#slideContainer {
+	background-color: #DB8A09;
+	margin-bottom: 20px;
+}
+#slideContainer img {
+	width: 480px;
+}
+
+
+
+/* slider caption */
+#caption { 
+	width: 220px; 
+	/* overflow:hidden; */
+	float:right;
+	height:320px;	
+	position:relative;
+}
+
+
+#rightcolumn {
+	padding: 0;
+
+}
+#slideContainer b {
+	font-size: 36px;
+}
+
+
+
+.block {
+	background-image: url(../images/blockbox.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 0;
+}
+#slideContainer p {
+	color: #FFFFFF;
+	float: right;
+	width: 160px;
+	padding: 30px;
+	line-height: 27px;
+	height:260px;
+	position:absolute;
+	top:320px;
+	display:none;
+}
+
+
+.blocktext {
+	padding: 10px 35px;
+}
+
+.more {
+	float: right;
+	margin: 10px;
+}
+
+.blockhead {
+	margin-top: 15px;
+}
+
+
+#footer {
+	color:#FFFFFF;
+	text-align:right;
+	height:100px;
+	margin-top: 40px;
+	background-color: #ADADAD;
+	background-image: none;
+	background-repeat: no-repeat;
+	width: 940px;
+	line-height: 1.6em;
+	margin-bottom: 20px;
+}
+#footer img {
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#footer div {
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#footer a {
+	padding-right: 5px;
+	padding-left: 5px;
+	color:#FFFFFF;
+	font-size:12px;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color:#D96C00;
+	font-size:12px;
+	text-decoration:none;
+}
+
+
+
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+/* webkit play for social icons */
+
+#icons img { 
+ 	-webkit-transition:all 1s linear;
+  }
+ #icons img:hover {  
+ 	-webkit-transform: rotate(360deg); 
+ }
+
+/* slogan
+
+.word1 { color:red; font-size:20px; } 
+
+.word2 { color: #FFDD00; font-size:20px;}
+
+.word3 { color: orange; font-size:20px; }
+
+.word4 { color: green; color:#4275AF; font-family: "Opificio"; }
+
+.word5 { color: black; color:#4275AF; font-family: "Opificio";  }
+
+.word6 { color: blue; color:#4275AF; font-family: "Opificio";  }
+
+.word7 { color: indigo; color:#98B16A; font-family: Future, "Arial Black"; }
+
+.word8 { color: violet; color:#98B16A; font-family: Future; }
+
+.word9 { color:#654322; color:#98B16A; font-family: Future; }
+
+ */
+
+
+@font-face { font-family: Future; src: url('fonts/future.ttf'); } 
+@font-face { font-family: Ancient; src: url('fonts/jancieni.ttf'); } 
+@font-face { font-family: Opificio; src: url('fonts/Opificio_Bold.ttf'); }
+.slogan { font:18px/20px "Ancient", serif; margin-top:20px; color: #353639;}
+
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+div#rightcolumn ul.box > li a { color:#227DAA; text-decoration: none;}
+div#rightcolumn ul.box > li a:hover { color: #d96c00; }
+.faculty img { display:block; }
+.faculty p.phone, .faculty p.office, p.email, .faculty p.title { margin: 0; }
+p.title, span.person-name { font-weight:bold; }
+p.email a { color:#232D77; text-decoration: none;}
+span.person-name { font-size:1.1em; }
+ul { padding-left: 0; }
+li { list-style:none;  }
+#faculty-wrap { clear:both; }
+
+
+#filters a { color:#222; }
+#filters li { float:left; margin-right:1em;}
+
+
+ul.box {
+margin: 0;
+padding: 0;
+clear: both;
+overflow: hidden; }
+
+ul.box > li  {
+list-style-type: none;
+margin: 0 30px 43px 0;
+padding: 1em;
+display:block;
+overflow:hidden;
+/* width: 250px; */
+/* height: 150px; */
+max-width:30%;
+/* min-height:50px; */
+border: 1px solid #efefef;
+/* position: relative;
+float: left; */
+background: #ffffff;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+-o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; }
+
+/* ul.box>li:after {
+z-index: -1;
+position: absolute;
+background: transparent;
+width: 70%;
+height: 55%;
+content: '';
+right: 10px;
+bottom: 10px;
+transform: skew(15deg) rotate(6deg);
+-webkit-transform: skew(15deg) rotate(6deg);
+-moz-transform: skew(15deg) rotate(6deg);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); }
+
+ul.box>li:before {
+z-index: -2;
+position: absolute;
+background: transparent;
+width: 70%;
+height: 55%;
+content: '';
+left: 10px;
+bottom: 10px;
+transform: skew(-15deg) rotate(-6deg);
+-webkit-transform: skew(-15deg) rotate(-6deg);
+-moz-transform: skew(-15deg) rotate(-6deg);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); }
+ */
+div#rightcolumn { color:#333; } 
+div#rightcolumn h2 { color:#CB5726; }
+div#rightcolumn a { color: #DB8707; text-decoration:none; }
+div#rightcolumn a:hover { color: #4B7FAA; text-decoration:none;}
+
+
+
+
+
+
+
+
+
+

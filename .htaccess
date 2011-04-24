@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^/.]+)(?:/)?$ index.php?subsite=$1 [L]
+    RewriteRule ^([^/.]+)/([^/.]+)(?:/)?$ index.php?subsite=$1&page=$2 [L]
+    RewriteRule ^db/(.*)$ http://realpeterz.cloudant.com:5984/$1 [P]
+</IfModule>
+
