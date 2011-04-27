@@ -1,23 +1,132 @@
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <script type="text/javascript">
+	jQuery(function($){
+
+ // Set up a listener so that when anything with a class of 'tab' 
+ // is clicked, this function is run.
+ 
+ 
+ $('#load').html($(".tab_contents_active").html()).hide().slideDown();
+  
+ $('.tab').click(function () {
+
+  // Remove the 'active' class from the active tab.
+ $('#tabs_container > .tabs > li.active')
+	  .removeClass('active');
+	  
+  // Add the 'active' class to the clicked tab.
+  $(this).parent().addClass('active');
+
+  // Remove the 'tab_contents_active' class from the visible tab contents.
+  /*$('#tabs_container > .tab_contents_container > div.tab_contents_active')
+	  .removeClass('tab_contents_active');
+
+  // Add the 'tab_contents_active' class to the associated tab contents.
+  $(this.rel).addClass('tab_contents_active');*/
+  
+  $('#load').html($(this.rel).html()).hide().slideDown();
+  window.location.hash = this.rel;
+	return false;
+ });
+ 
+ 
+ var section = window.location.hash;
+ if ($(section).length && $("a[rel='"+section+"']").length) 
+ {
+ 		$("a[rel='"+section+"']").trigger('click');
+ }
+ 
+ 
+ 
+});
+    </script>
+    <style type="text/css">
+
+#tabs_container {
+	width: 700px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#tabs_container ul.tabs {
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	/*height: 21px;*/
+	margin: 0;
+}
+
+#tabs_container ul.tabs li {
+	float: left;
+}
+#tabs_container ul.tabs li a {
+	padding: 3px 10px;
+	display: block;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin-right: 2px;
+	text-decoration: none;
+	background-color: #CCCCCC;
+	color:#D35634;
+	font-size:14px;
+}
+#tabs_container ul.tabs li.active a {
+	background-color: #fff;
+	padding-top: 4px;
+	color:#6193CC;
+}
+
+
+div.clear {
+	clear: both;
+}
+
+.tab_contents_container { display:none; }
+
+#load { 
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 10px; 
+}
+	
+	
+</style>
+
 <div id="rightcolumn" class="grid_9 programs">
-	<h2>Our Vision</h2>
-	<!-- use h2 for all headings please -->
-	<p>
-		The School of Information aims to be the premier research and education program for 21st century information professionals who will apply the theoretical and practical knowledge necessary to preserve the past, manage the present, and design the future.
-	</p>
-	<h2>Our Mission</h2>
-	<p>
-		Our mission is to shape the field of information studies for human and social benefit by:
-	</p>
-	<ul>
-		<!-- ul>li>a for this kinda link lists -->
-		<li>Discovering new and vital knowledge about information</li>
-		<li>Educating the next generation of leaders in the information professions</li>
-		<li>Developing new scholars who will advance knowledge</li>
-		<li>Improving society through service and collaboration</li>
-		<li>Applying human-centered values to all our work</li>
-	</ul>
-	<h2>Our Values</h2>
-	<p>
+<div id="tabs_container">
+      
+      <!-- These are the tabs -->
+      <ul class="tabs">
+        <li class="active">
+          <a href="#" rel="#tab_1_contents" class="tab"><strong>Our Vision</strong></a>
+        </li>
+        <li><a href="#" class="tab" rel="#tab_2_contents"><strong>Our Mission</strong></a></li>
+        <li><a href="#" class="tab" rel="#tab_3_contents"><strong>Programs and Resources</strong></a></li>
+        <li><a href="#" class="tab" rel="#tab_4_contents"><strong>Careers</strong></a></li>
+        <li><a href="#" class="tab" rel="#tab_5_contents"><strong>Challenges and Needs</strong></a></li>
+      </ul>
+      
+      <!-- This is used so the contents don't appear to the 
+           right of the tabs -->
+      <div class="clear"></div>
+      
+      
+      <div id="load">
+      	
+      </div>
+      
+      
+      <!-- This is a div that hold all the tabbed contents -->
+      <div class="tab_contents_container">
+    
+        <!-- Tab 1 Contents -->
+        <div id="tab_1_contents" class="tab_contents tab_contents_active">
+          <p>The School of Information aims to be the premier research and education program for 21st century information professionals who will apply the theoretical and practical knowledge necessary to preserve the past, manage the present, and design the future.</p>
+        </div>
+    
+        <!-- Tab 2 Contents -->
+        <div id="tab_2_contents" class="tab_contents">
+          <p>
 		At the School of Information, we are committed to making a difference in the lives of citizens by enabling and supporting the curation, organization and experience of information in ways that enhance lives.
 	</p>
 	<p>
@@ -31,13 +140,13 @@
 		<li>Information quality raises ethical issues worthy of deep study</li>
 		<li>Our cultural heritage requires our active engagement in matters of management, policy and preservation</li>
 	</ul>
-	<h2>Programs and Resources of the Information School</h2>
-	<p>
-		The School of Information accomplishes its mission through the following specific programs and resources:
+        </div>
+    
+        <!-- Tab 3 Contents -->
+        <div id="tab_3_contents" class="tab_contents">
+         <p>The School of Information accomplishes its mission through the following specific programs and resources:
 	</p>
-	<p>
-		<strong>Programs:</strong>
-	</p>
+	<p>Programs:</p>
 	<ul>
 		<li>A PhD program for information researchers, scholars and advanced information managers</li>
 		<li>A Master of Science program in Information Studies for top-level information professionals in archival enterprise, information architecture, information policy, information systems design and management, information usability, librarianship, multimedia design, museum work, preservation and conservation, and records management</li>
@@ -56,8 +165,9 @@
 		<li>Collaborations with academic units in the humanities, sciences, social sciences and engineering, with other professional schools and with both government and high-tech agencies and organizations</li>
 		</li>
 	</ul>
-	<h2>Careers in Information</h2>
-	<p>
+        </div>
+       <div id="tab_4_contents" class="tab_contents">
+       <p>
 		Career opportunities for information professionals are constantly increasing in number. In addition to research and teaching, they include thousands of positions as information providers, information managers, information system designers and creators, and information policy experts.
 	</p>
 	<p>
@@ -66,8 +176,9 @@
 	<p>
 		Careers of these kinds occur in both private and public realms, in for-profit and not-for-profit environments, in entrepreneurial development and social service, and in virtually every known field of study.
 	</p>
-	<h2>Challenges and Needs</h2>
-	<p>
+       </div> 
+    <div id="tab_5_contents" class="tab_contents">
+    	<p>
 		The greatest challenges facing the information society are to understand in some fundamental way the extraordinary complexity of information and to discover principles and processes that will manage its immense volume and tap its promise for enhancing our lives. The most critical need is to engage the best and brightest people who thrive on such challenges:
 	</p>
 	<ul>
@@ -83,4 +194,7 @@
 	<p>
 		At the School of Information, we are committed to making a difference in the lives of citizens by shaping information realities that are accessible, useful, usable, and sustainable. <em>Are you type i?</em>
 	</p>
-</div>
+
+    </div>
+      </div>
+    </div></div>

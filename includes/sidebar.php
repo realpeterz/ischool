@@ -71,7 +71,7 @@
 		</ul>
 		</dd>
 		<dt><a href="index.php?subsite=fieldsofstudy" data-location="fieldsofstudy">FIELDS OF STUDY</a></dt>
-		<dt><a href="index.php?subsite=locations" data-location="location">LOCATION</a></dt>
+		<dt><a href="index.php?subsite=location" data-location="location">LOCATION</a></dt>
 		<dt><span class="expand expand_up">+</span><a href="index.php?subsite=people" data-location="people">PEOPLE</a></dt>
 		<dd>
 		<ul>
@@ -124,7 +124,42 @@
 		</dd>
 	</dl>
 	<div id="yoga">
-		<img src="images/bendy_girl_front.jpg" alt="yoga girl"/>
+		<img <?php if (empty($_SERVER['QUERY_STRING'])):?>src="images/bendy_girl_front.jpg"<?php endif;?> 
+		
+		<?php 
+			switch (parse_subsite()):
+			case "home":
+				echo "src='images/bendy_girl_front.jpg'";break;
+			case "about":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl002.jpg'"; break;
+			case "admission":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl004.jpg'";break;
+			case "careers":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl005.jpg'";break;
+			case "courses":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy001.jpg'";break;
+			case "fieldsofstudy":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy005.jpg'";break;
+			case "location":
+				echo "src='src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl002.jpg'";break;
+			case "people":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy002.jpg'";break;
+			case "programs":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy003.jpg'";break;
+			case "research":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl003.jpg'";break;
+			case "technology":
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy004.jpg'";break;
+			default:
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl005.jpg'";break;
+			endswitch;
+		?>
+		
+		alt="a person practicing yoga"/>
+		
+		
+		
+		
 	</div>
 </div>
 <!-- end #leftcolumn-->
