@@ -2,187 +2,187 @@
 
 
 <h3>
-	<a href="#health">Health Information and Health Informatics</a> | 
+	<a href="#health">Health Information and Health Informatics</a> |
 	<a href="#digital">Digital Libraries</a>
 </h3>
-			
-<h2 name="health">HEALTH INFORMATION AND HEALTH INFORMATICS</h2><!-- page_title -->
+
+<h1 name="health">HEALTH INFORMATION AND HEALTH INFORMATICS</h1><!-- page_title -->
 
 
 
 
 
 
-<p>Health is one of the most rapidly growing areas of research in the iSchool 
-movement because of its social importance, the significant role of information 
-and information technology in health care, and the intertwined social, 
-organizational, medical, and technical issues associated with solving health 
-care problems.  With the aging population and the epidemic of obesity in the 
-United States, there is rapidly increasing attention on health 
-issues.  Approximately one third of the faculty in the UT iSchool are working on 
-issues of health information or health informatics.  A number of our faculty 
-members are working on a single disease, diabetes, which is the most prevalent 
-and costly chronic illness in America.  While the focus of much of the faculty's 
-research on health targets the United States, many of these projects have 
-obvious applications to health issues in other countries. Here is a survey of 
-the work being carried out in the UT School of Information, as of fall 2009, on 
+<p>Health is one of the most rapidly growing areas of research in the iSchool
+movement because of its social importance, the significant role of information
+and information technology in health care, and the intertwined social,
+organizational, medical, and technical issues associated with solving health
+care problems.  With the aging population and the epidemic of obesity in the
+United States, there is rapidly increasing attention on health
+issues.  Approximately one third of the faculty in the UT iSchool are working on
+issues of health information or health informatics.  A number of our faculty
+members are working on a single disease, diabetes, which is the most prevalent
+and costly chronic illness in America.  While the focus of much of the faculty's
+research on health targets the United States, many of these projects have
+obvious applications to health issues in other countries. Here is a survey of
+the work being carried out in the UT School of Information, as of fall 2009, on
 health information and health informatics.</p>
 
- 
+
 
 <h2>Gary Geisler</h2>
-<p><a href="/people/person_details.php?PersonID=90">Gary Geisler</a> is working with colleagues at Harvard Medical School and 
-Massachusetts General Hospital on a National Institutes of Health/National 
-Library of Medicine funded grant project called eMicrobes: A Digital Library for 
-Learning Infectious Diseases. The three-year project will develop eMicrobes to 
-be an extensive and easily searchable digital library of interactive case 
-studies and images that will enable medical students, practicing physicians, and 
-other healthcare workers to more easily learn and find information about 
-infectious diseases. Important goals of the project include dynamically 
-integrating relevant information from on-line biomedical sources such as PubMed 
-to enrich case information; to provide options to store and access eMicrobes 
-resources locally when not connected to the Internet, such as in rural settings 
+<p><a href="/people/person_details.php?PersonID=90">Gary Geisler</a> is working with colleagues at Harvard Medical School and
+Massachusetts General Hospital on a National Institutes of Health/National
+Library of Medicine funded grant project called eMicrobes: A Digital Library for
+Learning Infectious Diseases. The three-year project will develop eMicrobes to
+be an extensive and easily searchable digital library of interactive case
+studies and images that will enable medical students, practicing physicians, and
+other healthcare workers to more easily learn and find information about
+infectious diseases. Important goals of the project include dynamically
+integrating relevant information from on-line biomedical sources such as PubMed
+to enrich case information; to provide options to store and access eMicrobes
+resources locally when not connected to the Internet, such as in rural settings
 and resource-scarce countries; and to support access from mobile devices.</p>
 
- 
+
 
 <h2>Luis Francisco-Revilla</h2>
 
-<p><a href="/people/person_details.php?PersonID=91">Luis Francisco-Revilla</a>'s work in health informatics has focused on studying 
-how new technological platforms and novel visualization methods can help improve 
-the health of target populations. In particular, he works on studying and 
-devising socio-technical solutions that help in discovering temporal and 
-geo-spatial relationships between health aspects and environmental factors, and 
-in understanding the effect of specific policies on health aspects. As a member 
-of the Technical Advisory Committee Luis Francisco-Revilla has been 
-collaborating with Children's Optimal Health to "visual images to inform policy, 
-improve operations, promote research, and mobilize the community to better the 
+<p><a href="/people/person_details.php?PersonID=91">Luis Francisco-Revilla</a>'s work in health informatics has focused on studying
+how new technological platforms and novel visualization methods can help improve
+the health of target populations. In particular, he works on studying and
+devising socio-technical solutions that help in discovering temporal and
+geo-spatial relationships between health aspects and environmental factors, and
+in understanding the effect of specific policies on health aspects. As a member
+of the Technical Advisory Committee Luis Francisco-Revilla has been
+collaborating with Children's Optimal Health to "visual images to inform policy,
+improve operations, promote research, and mobilize the community to better the
 lives of our children and youth". Francisco-Revilla has collaborated with Sandia
-National Laboratories in the development of a diabetes model and simulator aimed 
-at informing health policy makers about the possible effects of alternative 
-policies. This collaboration also studies how to use these technologies as an 
-intervention mechanism for helping high-risk populations prevent the development 
+National Laboratories in the development of a diabetes model and simulator aimed
+at informing health policy makers about the possible effects of alternative
+policies. This collaboration also studies how to use these technologies as an
+intervention mechanism for helping high-risk populations prevent the development
 of diabetes.</p>
 
- 
+
 
 <h2>Yan Zhang</h2>
-<p><a href="/people/person_details.php?PersonID=150">Yan Zhang</a>'s research on health information focuses on people's general health 
-information needs, health information searching behavior in the web environment, 
-and the usability of web-based consumer health information systems. In the past, 
-she has worked on a personal health records (PHRs) project, exploring people's 
-needs and concerns of digital PHRs and the effects of different information 
-presentation formats on people's perceptions of their health conditions. She has 
-worked with an industry partner on improving the usability of their web-based 
-service providing individualized recommendations for vitamin, supplements, and 
-shopping guidelines for customers. She has also worked on a project 
-investigating how people judge relationships between medical concepts and 
-whether such end user judgments can improve the performance of a medical concept 
-extraction and association program. In her doctoral dissertation, she explored 
-the change and development of people's mental representations of MedlinePlus, a 
-consumer health website created and maintained by the National Library of 
-Medicine, during a search session. Continuing on this line of research, she is 
-currently looking at the relationship between subjects' mental representations 
-and their information searching behavior in MedlinePlus. Meanwhile she is 
-working on a project to identify the characteristics of people's health 
-information needs as manifested by the questions that they submit to social 
-questions and answers websites and how consumer health information systems can 
+<p><a href="/people/person_details.php?PersonID=150">Yan Zhang</a>'s research on health information focuses on people's general health
+information needs, health information searching behavior in the web environment,
+and the usability of web-based consumer health information systems. In the past,
+she has worked on a personal health records (PHRs) project, exploring people's
+needs and concerns of digital PHRs and the effects of different information
+presentation formats on people's perceptions of their health conditions. She has
+worked with an industry partner on improving the usability of their web-based
+service providing individualized recommendations for vitamin, supplements, and
+shopping guidelines for customers. She has also worked on a project
+investigating how people judge relationships between medical concepts and
+whether such end user judgments can improve the performance of a medical concept
+extraction and association program. In her doctoral dissertation, she explored
+the change and development of people's mental representations of MedlinePlus, a
+consumer health website created and maintained by the National Library of
+Medicine, during a search session. Continuing on this line of research, she is
+currently looking at the relationship between subjects' mental representations
+and their information searching behavior in MedlinePlus. Meanwhile she is
+working on a project to identify the characteristics of people's health
+information needs as manifested by the questions that they submit to social
+questions and answers websites and how consumer health information systems can
 be designed to better support such needs.</p>
 
- 
+
 
 <h2>William Aspray</h2>
-<p><a href="/people/person_details.php?PersonID=128">William Aspray</a>'s work in health informatics has focused on sociotechnical 
-aspects of chronic disease.  Together with Barbara Hayes of Indiana University, 
-he is editing <em>Health Informatics: A Patient-Centered Approach to Diabetes</em> (MIT 
-Press, to appear 2010).  He has written for this volume, also with Hayes, a long 
-essay on "The Informatics of Diabetes: A Research Agenda for the Socially and 
-Institutionally Sensitive Use of Information Technology to Improve 
-Healthcare."  The book includes articles by faculty at a number of the iSchools 
-(Florida State, Georgia Tech, Indiana, Michigan, Northeastern, Texas, and 
-Washington) and covers such topics as ubiquitous computing, avatars as health 
+<p><a href="/people/person_details.php?PersonID=128">William Aspray</a>'s work in health informatics has focused on sociotechnical
+aspects of chronic disease.  Together with Barbara Hayes of Indiana University,
+he is editing <em>Health Informatics: A Patient-Centered Approach to Diabetes</em> (MIT
+Press, to appear 2010).  He has written for this volume, also with Hayes, a long
+essay on "The Informatics of Diabetes: A Research Agenda for the Socially and
+Institutionally Sensitive Use of Information Technology to Improve
+Healthcare."  The book includes articles by faculty at a number of the iSchools
+(Florida State, Georgia Tech, Indiana, Michigan, Northeastern, Texas, and
+Washington) and covers such topics as ubiquitous computing, avatars as health
 coaches, serious gaming, and electronic health records.</p>
 
- 
+
 
 <h2>Glynn Harmon</h2>
-<p><a href="/people/person_details.php?PersonID=42">Glynn Harmon</a>'s past health information/informatics research has focused on 
-the areas of providing cost-effective telemedicine consultation for diabetic and 
-other patients; the role of the clinical medical librarian--now emerging as the 
-informationist, who provides evidence-based instruction and consultation for 
-both clinical providers and consumers; the emergence of public health 
-informatics; and unconscious cognition in the genesis of reference queries.</p>  
+<p><a href="/people/person_details.php?PersonID=42">Glynn Harmon</a>'s past health information/informatics research has focused on
+the areas of providing cost-effective telemedicine consultation for diabetic and
+other patients; the role of the clinical medical librarian--now emerging as the
+informationist, who provides evidence-based instruction and consultation for
+both clinical providers and consumers; the emergence of public health
+informatics; and unconscious cognition in the genesis of reference queries.</p>
 
-<p>His current research involves exploration of Nobel laureate discovery patterns 
-in physiology and medicine and the potential acceleration of discovery therein; 
-the comparative performance of evidence-based medicine aggregator capabilities 
-of different search engines--specifically SUMSearch, PubMed and Google 
-Scholar--as a joint effort with Robert Badgett, professor of internal medicine 
-and chief of medical informatics at UTHSCSA and inventor of SUMSearch; and 
-discovery patterns in bio-gerontology, possibly in collaboration with the 
+<p>His current research involves exploration of Nobel laureate discovery patterns
+in physiology and medicine and the potential acceleration of discovery therein;
+the comparative performance of evidence-based medicine aggregator capabilities
+of different search engines--specifically SUMSearch, PubMed and Google
+Scholar--as a joint effort with Robert Badgett, professor of internal medicine
+and chief of medical informatics at UTHSCSA and inventor of SUMSearch; and
+discovery patterns in bio-gerontology, possibly in collaboration with the
 Barshop Center for Biogerontology at UTHSCSA.</p>
 
- 
+
 
 <h2>Bill Lukenbill and Barbara Immroth</h2>
-<p><a href="/people/person_details.php?PersonID=35">Bill Lukenbill</a> and <a href="/people/person_details.php?PersonID=41">Barbara Immroth</a> are collaborating on research and publications that address the health needs of youth. Lukenbill's interest in 
-health related topics extends to his research resulting in several published 
-works on HIV-AIDS including <em>AIDS-HIV Information Services</em> and <em>Programs in 
-Libraries</em> (Englewood, Colorado: Libraries Unlimited, 1994). Lukenbill and 
-Immroth's current research and published works include the book <em>Health 
-Information for Youth: The Public Library and School Library Media Center 
-Role</em> (Westport, Conn: Libraries Unlimited, 2007) and the forthcoming 
+<p><a href="/people/person_details.php?PersonID=35">Bill Lukenbill</a> and <a href="/people/person_details.php?PersonID=41">Barbara Immroth</a> are collaborating on research and publications that address the health needs of youth. Lukenbill's interest in
+health related topics extends to his research resulting in several published
+works on HIV-AIDS including <em>AIDS-HIV Information Services</em> and <em>Programs in
+Libraries</em> (Englewood, Colorado: Libraries Unlimited, 1994). Lukenbill and
+Immroth's current research and published works include the book <em>Health
+Information for Youth: The Public Library and School Library Media Center
+Role</em> (Westport, Conn: Libraries Unlimited, 2007) and the forthcoming
 book <em>Health Education Across the Curriculum</em> (Libraries Unlimited, 2010).</p>
 
-<p>In 2006-2007 Immroth and Lukenbill received a School of Information Teaching 
-Fellowship for a research project "Public and School Librarians as Health 
-Information Gatekeepers for Youth in Small Towns and Rural Areas in South 
-Texas", which funded a Delphi study of those librarians, resulting in the paper 
-"School and Public Youth Librarians as Health Information Gatekeepers:  Research 
-from the Lower Rio Grande Valley of Texas," in <em>School Library Media 
-Research</em> (2009). Immroth presented a paper written with Lukenbill "The Rio 
-Grande Valley of Texas: Issues and Models for Health Information for Youth" at 
-the 73rd IFLA General Conference and Council, Durban, South Africa, August 26, 
-2007. At the 2009 75th IFLA Conference in Milan, Italy, they presented <em>Get HIP: 
-Providing Health Care Information for Youth through Collaboration and 
-Team-Building.</em> They also presented a paper on health information in the school 
-curriculum at the International Association of School Librarians, Padua, Italy, 
+<p>In 2006-2007 Immroth and Lukenbill received a School of Information Teaching
+Fellowship for a research project "Public and School Librarians as Health
+Information Gatekeepers for Youth in Small Towns and Rural Areas in South
+Texas", which funded a Delphi study of those librarians, resulting in the paper
+"School and Public Youth Librarians as Health Information Gatekeepers:  Research
+from the Lower Rio Grande Valley of Texas," in <em>School Library Media
+Research</em> (2009). Immroth presented a paper written with Lukenbill "The Rio
+Grande Valley of Texas: Issues and Models for Health Information for Youth" at
+the 73rd IFLA General Conference and Council, Durban, South Africa, August 26,
+2007. At the 2009 75th IFLA Conference in Milan, Italy, they presented <em>Get HIP:
+Providing Health Care Information for Youth through Collaboration and
+Team-Building.</em> They also presented a paper on health information in the school
+curriculum at the International Association of School Librarians, Padua, Italy,
 August 2009. (available in the published proceedings of IASL)</p>
 
-<p>In recent years 
-they have been collaborating with the Outreach Office of the Library, University 
-of Texas Health Sciences Center, San Antonio in developing conferences in order 
-to educate school librarians to work with teachers, nurses, counselors and other 
-school personnel to better meet the goals of "Coordinated School Health Program 
-(CSHP)" established by the Centers for Disease Control, designed to encourage 
-schools to become more involved in improving the health of youth in school. The 
-first conference based on the CDC model was presented in San Antonio, Texas on 
-June 3, 2008. A similar conference is being planned for April 2010. Plans are to 
+<p>In recent years
+they have been collaborating with the Outreach Office of the Library, University
+of Texas Health Sciences Center, San Antonio in developing conferences in order
+to educate school librarians to work with teachers, nurses, counselors and other
+school personnel to better meet the goals of "Coordinated School Health Program
+(CSHP)" established by the Centers for Disease Control, designed to encourage
+schools to become more involved in improving the health of youth in school. The
+first conference based on the CDC model was presented in San Antonio, Texas on
+June 3, 2008. A similar conference is being planned for April 2010. Plans are to
 continue such presentations at local levels throughout the state and nation.</p>
 
- 
+
 
 <h2>Loriene Roy</h2>
-<p><a href="/people/person_details.php?PersonID=33">Loriene Roy</a> entered the field of librarianship from a previous career as a 
-board certified Medical Radiologic Technologist. More recently, she launched a 
-Workplace Wellness initiative during her service as the 2007-2008 President of 
-the American Library Association. This initiative included a survey sponsored by 
-the ALA-APA, providing benchmark figures for the status of Wellness support in 
-public, academic, school, and special libraries.  88.8 percent of the 2,147 
-respondents indicated that their work environments supported some wellness 
-initiative such as employee assistance plans, flu shots, or wellness classes. In 
-addition to workplace wellness, writes about indigenous lifeways, including 
-Native language recovery, cultural heritage initiatives, and the impact of 
+<p><a href="/people/person_details.php?PersonID=33">Loriene Roy</a> entered the field of librarianship from a previous career as a
+board certified Medical Radiologic Technologist. More recently, she launched a
+Workplace Wellness initiative during her service as the 2007-2008 President of
+the American Library Association. This initiative included a survey sponsored by
+the ALA-APA, providing benchmark figures for the status of Wellness support in
+public, academic, school, and special libraries.  88.8 percent of the 2,147
+respondents indicated that their work environments supported some wellness
+initiative such as employee assistance plans, flu shots, or wellness classes. In
+addition to workplace wellness, writes about indigenous lifeways, including
+Native language recovery, cultural heritage initiatives, and the impact of
 technology on indigenous communities.</p>
 
-<h2><a name="digital">DIGITAL LIBRARIES</a></h2><!-- page_title -->
+<h1><a name="digital">DIGITAL LIBRARIES</a></h1><!-- page_title -->
 
 
 <!-- ####################### BEGIN PAGE CONTENT ####################### -->
 
 
 
-<p>Digital libraries are widely recognized as strategic for the future of the global information environment. By making digital resources available over computer networks, they enable previously unreachable audiences to access vital information and services. As a result, countries around the world consider digital libraries of national interest. In its report <a href="http://www.nitrd.gov/Pubs/pitac/pitac-dl-9feb01.pdf" title="Digital Libraries: Universal Access to Human Knowledge">Digital Libraries: Universal Access to Human Knowledge (pdf)</a>, the U.S. President's Information Technology Advisory Committee (PITAC) stated that digital libraries have a "profound relevance ... to advancing quality education in every school, learning center, and home in the country." U.S. federal and state institutions have established various research programs in digital libraries such as the Library of Congress' <a href="http://www.digitalpreservation.gov/" title="Digital Preservation (Library of Congress)">National Digital Information Infrastructure and Preservation Program</a>, and the <a href="http://nsdl.org/" title="NSDL.org - The National Science Digital Library">National Science Foundation's National Science Digital Library</a>. The School of Information at UT is a leader in the field of digital libraries. Approximately one third of the faculty is conducting fundamental research in this field, promoting the creation and study of novel social and technological solutions, and bolstering the broader goal of improving and advancing the quality of research and education both nationally and globally. 
+<p>Digital libraries are widely recognized as strategic for the future of the global information environment. By making digital resources available over computer networks, they enable previously unreachable audiences to access vital information and services. As a result, countries around the world consider digital libraries of national interest. In its report <a href="http://www.nitrd.gov/Pubs/pitac/pitac-dl-9feb01.pdf" title="Digital Libraries: Universal Access to Human Knowledge">Digital Libraries: Universal Access to Human Knowledge (pdf)</a>, the U.S. President's Information Technology Advisory Committee (PITAC) stated that digital libraries have a "profound relevance ... to advancing quality education in every school, learning center, and home in the country." U.S. federal and state institutions have established various research programs in digital libraries such as the Library of Congress' <a href="http://www.digitalpreservation.gov/" title="Digital Preservation (Library of Congress)">National Digital Information Infrastructure and Preservation Program</a>, and the <a href="http://nsdl.org/" title="NSDL.org - The National Science Digital Library">National Science Foundation's National Science Digital Library</a>. The School of Information at UT is a leader in the field of digital libraries. Approximately one third of the faculty is conducting fundamental research in this field, promoting the creation and study of novel social and technological solutions, and bolstering the broader goal of improving and advancing the quality of research and education both nationally and globally.
 </p>
 
 <p>Research in digital libraries is a multi-disciplinary endeavor that requires knowledge of multiple academic disciplines and technologies. The faculty at the School of Information at UT includes experts in the key areas and technologies required for advancing the state of the art of digital libraries including, among others, process-based and spatial hypermedia systems, multimedia and new media artifacts, electronic document modeling and publication, computer-human interaction, user studies, information retrieval, collaborative systems, and digital preservation. The faculty publishes in the top  academic venues, receives external funding from prestigious institutions such as the Institute of Museum and Library Services (IMLS) and the National Science Foundation (NSF), and organized the premier international conference ACM/ <a href="http://www.jcdl2009.org/" title="JCDL 2009 | Preserving the past, designing the future--today.">IEEE Joint Conference on Digital Libraries (JCDL) in 2009</a>.
@@ -222,3 +222,4 @@ technology on indigenous communities.</p>
 
 
 </div>
+

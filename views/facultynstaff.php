@@ -1,5 +1,7 @@
 <div id="rightcolumn" class="grid_9 programs">
 
+<h1>INFORMATION FOR FACULTY AND STUFF </h1>
+
 <p>For information <i>about</i> faculty and staff, see the <a href="/people/">people</a> section of the website.</p>
 <h2>Resources</h2>
 
@@ -23,7 +25,7 @@
 
 <p><a href="/forms/Gender_Equity_Commitment.pdf">Gender Equity Commitment</a> (pdf) </p>
 
-<p>The Gender Equity Commitment document outlines the School of Information&apos;s plan to provide a collegial, equitable, and supportive work environment for all faculty members regardless of gender, ethnicity, or orientation.</p> 
+<p>The Gender Equity Commitment document outlines the School of Information&apos;s plan to provide a collegial, equitable, and supportive work environment for all faculty members regardless of gender, ethnicity, or orientation.</p>
 
 <h3>Travel</h3>
 <ul>
@@ -105,3 +107,4 @@
 <li><a href="third_year_review.php">Third Year Review</a></li>
 </ul>
 </div>
+

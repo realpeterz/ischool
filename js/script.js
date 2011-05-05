@@ -111,23 +111,23 @@ $(function(){
 			files: [
 					{ 
 						photo: "photo1",
-						content: "<b>C</b>orem et, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum."
+						content: "<b>W</b>elcome to The School of Information at The University of Texas at Austin. Information is a valuable social resource, and we educate the professionals who will ensure its continuity, usability, and accessibility - now and into the future."
 					},
 					{ 
 						photo: "photo2",
-						content: "<b>D</b>orem ipsum dolor s voluptua. At vero eos et accusam et justo dolores et ea rebum."
+						content: "<b>T</b>he IT Lab staff provides helpful information and assistance on a variety of subjects. IT Lab Hours are <strong>Monday-Thursday</strong>:<br />8:30 a.m.-10 p.m.<br /><strong>Friday</strong>: 9 a.m.-4 p.m.<br /><strong>Saturday</strong>: 12-6 p.m.<br /><strong>Sunday</strong>: 1-5 p.m."
 					},
 					{ 
 						photo: "photo3",
-						content: "<b>S</b>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et do"
+						content: "<b>P</b>rofessor Karen Pavelka instructs students in the Book Lab. The Cultural Heritage and Information Preservation Society (CHIPS) hosts Preservation Week at the iSchool April 24-30."
 					},
 					{ 
 						photo: "photo4",
-						content: "<b>F</b>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dnonumy eirmod tempor invidunt ut labore et dolore magn"
+						content: "<b>O</b>n the fifth floor of the iSchool, students will find a friendly staff and distinguished faculty, who are eager to teach and help students."
 					},
 					{ 
 						photo: "photo5",
-						content: "<b>F</b>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dnonumy eirmod tempor invidunt ut labore et dolore magn"
+						content: "<b>T</b>he iSchool is located in the UT Administration (UTA) Building, two blocks south of UT's main campus at 1616 Guadalupe Street, across the street from the Clay Pit restaurant and Dog & Duck pub."
 					}
 					
 				]

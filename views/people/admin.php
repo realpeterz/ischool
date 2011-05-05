@@ -1,6 +1,6 @@
 <div id="rightcolumn" class="grid_9 research">
-<h2>
-						WHO DOES WHAT IN THE ADMINISTRATIVE OFFICE						</h2><!-- page_title -->
+<h1>
+						WHO DOES WHAT IN THE ADMINISTRATIVE OFFICE						</h1><!-- page_title -->
 
 
 <!-- ####################### BEGIN PAGE CONTENT ####################### -->

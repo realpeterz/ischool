@@ -1,7 +1,7 @@
 
 <div id="rightcolumn" class="grid_9 programs">
 
-<h2>SPECIAL POSITIONS</h2>
+<h1>SPECIAL POSITIONS</h1>
 <table>
 <tr><td class="position_name">Graduate Advisor</td><td><a href="/people/person_details.php?PersonID=22">Philip Doty</a></td></tr>
 <tr><td class="position_name">Assistant Graduate Advisor</td><td><a href="/people/person_details.php?PersonID=41">Barbara Immroth</a></td></tr>
@@ -10,3 +10,4 @@
 
 </table>
 </div>
+

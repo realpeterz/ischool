@@ -60,7 +60,7 @@
 		<ul>
 			<li id="Advising"><a href="http://www.ischool.utexas.edu/courses/advising.php">Advising</a></li>
 			<li id="Classes"><a href="http://www.ischool.utexas.edu/courses/classes.php">Class Schedules</a></li>
-			<li id="CourseDescriptions"><a href="http://www.ischool.utexas.edu/courses/course_descriptions.php">Course Descriptions</a></li>
+			<li id="CourseDescriptions"><a href="index.php?subsite=courses&page=course_descriptions">Course Descriptions</a></li>
 			<li id="CourseRotation"><a href="http://www.ischool.utexas.edu/courses/course_rotation.php">Course Rotation</a></li>
 			<li id="WISE"><a href="http://www.ischool.utexas.edu/courses/wise.php">WISE Info</a></li>
 			<li id="WISEClasses"><a href="http://www.ischool.utexas.edu/courses/wise_classes.php">WISE Classes</a></li>
@@ -117,16 +117,23 @@
 		<dt><span class="expand expand_up">+</span><a href="index.php?subsite=technology" data-location="technology">TECHNOLOGY</a></dt>
 		<dd>
 		<ul>
-			<li><a href="/src/">link1</a></li>
-			<li><a href="/docs/">link2</a></li>
-			<li><a href="/blog/">link3</a></li>
+        	<li><a href="index.php?subsite=technology&page=accounts" data-page="accounts">Accounts</a></li>
+			<li><a href="index.php?subsite=technology&page=labs" data-page="labs">Labs and Facilities</a></li>
+			<li><a href="index.php?subsite=technology&page=equipment" data-page="equipment">Equipment Reservation</a></li>
+			<li><a href="index.php?subsite=technology&page=tutorials" data-page="tutorials">Tutorials</a></li>
+            <li><a href="index.php?subsite=technology&page=short_courses" data-page="short_courses">Short Courses</a></li>
+            <li><a href="index.php?subsite=technology&page=support_staff" data-page="support_staff">Support Staff</a></li>
+            <li><a href="index.php?subsite=technology&page=ta_description" data-page="ta_description">TA Description</a></li>
+            <li><a href="index.php?subsite=technology&page=ta_resources" data-page="ta_resources">TA Resources</a></li>
+            <li><a href="index.php?subsite=technology&page=faq" data-page="faq">FAQs</a></li>
 		</ul>
 		</dd>
 	</dl>
 	<div id="yoga">
-		<img <?php if (empty($_SERVER['QUERY_STRING'])):?>src="images/bendy_girl_front.jpg"<?php endif;?> 
-		
-		<?php 
+		<img <?php if (empty($_SERVER['QUERY_STRING'])):?>src="images/bendy_girl_front.jpg"<?php endif;?>
+
+		<?php
+		    // dynamically changing
 			switch (parse_subsite()):
 			case "home":
 				echo "src='images/bendy_girl_front.jpg'";break;
@@ -141,7 +148,7 @@
 			case "fieldsofstudy":
 				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy005.jpg'";break;
 			case "location":
-				echo "src='src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl002.jpg'";break;
+				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl002.jpg'";break;
 			case "people":
 				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_guy002.jpg'";break;
 			case "programs":
@@ -154,12 +161,13 @@
 				echo "src='http://www.ischool.utexas.edu/images/page_spice/bendy_girl005.jpg'";break;
 			endswitch;
 		?>
-		
+
 		alt="a person practicing yoga"/>
-		
-		
-		
-		
+
+
+
+
 	</div>
 </div>
 <!-- end #leftcolumn-->
+

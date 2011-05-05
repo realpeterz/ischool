@@ -26,10 +26,10 @@
 <h2>What's it About?</h2>
 
 	<ul>
-		<li><a href="it_lab_staff.php">Lab Staff</a></li>
-		<li><a href="it_lab_equipment.php">Equipment</a></li>
-		<li><a href="it_lab_printing.php">Printing</a></li>
-		<li><a href="http://www.ischool.utexas.edu/labs/it_lab/policies.php">Policies</a></li>
+		<li><a href="index.php?subsite=technology&page=lab_staff" data-page="lab_staff">Lab Staff</a></li>
+		<li><a href="index.php?subsite=technology&page=equipment" data-page="equipment">Equipment</a></li>
+		<li><a href="index.php?subsite=technology&page=it_lab_printing" data-page="it_lab_printing">Printing</a></li>
+		<li><a href="index.php?subsite=technology&page=it_lab_policies" data-page="it_lab_policies">Policies</a></li>
 	</ul>
 
 <p>Questions? Contact the <a href="mailto:itlab-tech@ischool.utexas.edu">IT Lab staff</a>.</p><!-- an email address is not just an url. Don't forget to put "mailto:" -->

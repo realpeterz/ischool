@@ -1,4 +1,6 @@
 <div id="rightcolumn" class="grid_9 programs">
+<h1>STUDENT AND PROFESSIONAL GROUPS</h1>
+
 <h2>Student Association</h2>
 
 <p>All iSchool students are members of <a href="http://sentra.ischool.utexas.edu/~sasi/index.html">SASI: the Student Association of the School of Information</a>. </p>
@@ -29,7 +31,7 @@
 <a href="http://www.txla.org/">Texas Library Association</a><br>
 <a href="http://www.main.org/reforma">Central Texas Chapter of REFORMA</A><br>
 <a href="http://www.ischool.utexas.edu/%7Eutsla/">Special Libraries Association (SLA)</a> (UT Austin Student Chapter)<br>
-<a href="http://www.ut-artex.blogspot.com/">Art and Architecture libraries (ArTex)</a> (Student Interest Group)<br /> 
+<a href="http://www.ut-artex.blogspot.com/">Art and Architecture libraries (ArTex)</a> (Student Interest Group)<br />
 </p>
 
 <h2>Information Architecture</h2>
@@ -44,3 +46,4 @@
 
 </p>
 </div>
+

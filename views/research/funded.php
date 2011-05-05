@@ -1,7 +1,7 @@
 <div id="rightcolumn" class="grid_9 research">
-			
-			<h2>
-						EXTERNALLY FUNDED SUPPORT FOR RESEARCH AND EDUCATION						</h2><!-- page_title -->
+
+			<h1>
+						EXTERNALLY FUNDED SUPPORT FOR RESEARCH AND EDUCATION						</h1><!-- page_title -->
 
 
 <!-- ####################### BEGIN PAGE CONTENT ####################### -->
@@ -123,3 +123,4 @@
 
 
 </div>
+

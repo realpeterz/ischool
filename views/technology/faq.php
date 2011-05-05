@@ -1,7 +1,7 @@
 <!-- use the same id and class name except that "programs" would be replaced by your custom class name for your page -->
 <div id="rightcolumn" class="grid_9 programs">
 
-<h2>TECHNOLOGY FAQs</h2> <!-- use h2 for all headings please -->
+<h1>TECHNOLOGY FAQs</h1> <!-- use h2 for all headings please -->
 
 <h2>Working in the Lab</h2>
 
@@ -86,7 +86,7 @@
 	<a href="#ForgotPassword">I forgot my password!</a><br />
 	<a href="#Rejected">I'm trying to login to Webmail or an ftp client with a password I KNOW to be correct, but it keeps getting rejected.</a><br />
 	<a href="#Forward">How do I forward my email from my School of Information account to another account?</a></p>
-	
+
 <h2>Security</h2>
 
 <p><a href="#ProtectVirus">How can I protect my computer from viruses and other malicious attacks?</a><br />
@@ -129,7 +129,7 @@
 	<a href="#DiskError">The machine I want to use is displaying a black screen with the words &quot;Non-system disk or disk error.&quot; Now what?</a></p>
 
 
-<hr size=1>            
+<hr size=1>
 <h2>General Information</h2>
 
 <p><a name="Where"></a><b>Where is the IT Lab?</b> [ <a href="#top">back
@@ -138,7 +138,7 @@ to top</a> ]<br>
 The IT Lab is located on the first floor of the <a href="http://www.utexas.edu/maps/main/buildings/uta.html">UTA Building</a> located at 1616 Guadalupe.  Enter and take the leftmost hallway to the end and you will see the lab on the right.  The IT Lab consists of the main Lab (a group work area) and the annex (a quiet work area) - the annex is sometimes used for short courses and small presentations, but otherwise is available for your use.
 
 <p><strong><a name="Park"></a>Where can I park to use the IT Lab? </strong>[ <a href="#top">back to top</a> ]<strong><br />
-	
+
 </strong>If you need to drop by the IT Lab, you can park in the garage to the west of the UTA Building, for up to 30 minutes for free.  A full day of parking is just $4.00.
 <p><a name="Purple"></a> <b>Who are all the people in purple shirts?</b>
 [ <a href="#top">back to top</a> ]<br>
@@ -146,7 +146,7 @@ The IT Lab is located on the first floor of the <a href="http://www.utexas.edu/m
 The teaching assistants who staff the Lab wear purple shirts (sometimes sweaters, cardigans, or smocks) and are often refered to as Purpleshirts. Every TA in the Lab is also a graduate student in the School of Information, and they are there to answer any question you might have, no matter how minor, so don't be shy!
 <p><a name="Hours"></a> <b>When is the IT Lab open?</b> [ <a href="#top">back
 to top</a> ]<br>
-The Lab is open Monday through Thursday (8:30 a.m. to 10 p.m.), Friday (9:00 
+The Lab is open Monday through Thursday (8:30 a.m. to 10 p.m.), Friday (9:00
 a.m. to 4:00 p.m.), Saturday (12 p.m. to 6 p.m.), and Sunday (1 p.m. to 5 p.m.). We are closed for winter break, spring break, and during most intersession periods. Signs are usually posted around the Lab in advance of scheduled closings, and an email is posted to <a href="https://utlists.utexas.edu/sympa/info/the-insider">the-insider email list</a>. You can also check the <a href="/technology/">IT Lab Web site</a>.
 <p><a name="Rules"></a> <b>Are there any basic rules I should know
 about?</b> [ <a href="#top">back to top</a> ]
@@ -186,7 +186,7 @@ please return them to their proper place when you're done.
 <p><strong><a name="Download"></a>I want to use an application that is not installed on the Lab computers. Can I download and install it? </strong>[<a href="#top">back to top</a> ]</p>
 <p>If you require the use of software not found on the computer, please contact a member of the Lab staff. In many cases, you will be allowed to install it. Keep in mind that the PCs will delete the software when you log off the computer. </p>
 
-<hr>            
+<hr>
 <h2>Lab Resources & Equipment</h2>
 <p><a name="Labres"></a> <b>What other resources besides computers are available in the IT Lab?</b> [ <a href="#top">back to top</a> ]
 <ul>
@@ -320,7 +320,7 @@ to top</a> ]
 <p><strong><a name="VideoWS"></a>Do you have a video workstation that I can use to digitize old VHS tapes? </strong>[ <a href="#top">back to top</a> ]</p>
 <p>Why yes, we do. We have a converter box hooked up to a VCR, that, when connected properly to a computer, will digitize your old VHS tapes. Ask a TA for help if you'd like to do this, and be sure to check out our iLife tutorials (<a href="/technology/tutorials/graphics/iPhoto/section1.html">iPhoto</a>, <a href="/technology/tutorials/graphics/imovie/1create.html">iMovie</a>, and <a href="/technology/tutorials/graphics/idvd/intro.html">iDVD</a>) for more information on the process of editing your video, adding music and photos, and burning a DVD.</p>
 
-<hr>            
+<hr>
 <h2>Printing</h2>
 <p><strong><a name="Print"></a>How do I print? </strong>[ <a href="#top">back to top</a> ]</p>
 <p>To print, simply go to File and then Print within the application that you are using. The default printer (that is chosen automatically) is the HP LaserJet 9000 PCL, which prints in black and white. To print in color, choose Suburban (or Dell Color Laser on a Mac). All printouts are sent to the printers located behind the Lab staff desk. You are responsible for paying for every printout that you make, even ones that are made in error.</p>
@@ -348,14 +348,14 @@ to top</a> ]
 <p><strong><a name="LostValue" id="LostValue"></a>I've lost a ( wallet/checkbook/something of value). </strong>[ <a href="#top">back to top</a> ]</p>
 
 <p>Ask a Lab staff member - anything of value is kept behind the desk or turned over to the School of Information office.</p>
-<hr>           
+<hr>
 <h2>Other Facilities</h2>
 <p><strong><a name="Finish"></a>I need to finish a paper, and the School of Information IT Lab is closed! What do I do now? </strong>[ <a href="#top">back to top</a> ]</p>
 
 <p>The University of Texas campus has a variety of computer Labs that are available to all students. A list of facilities are available <a href="http://www.utexas.edu/computer/labs.html">here</a>.</p>
 <p><strong><a name="OtherFacilities"></a>What other facilities does the School of Information IT Lab offer?</strong> [ <a href="#top">back to top</a> ]</p>
 <p>The IT Lab Staff can support activities the digitization lab.  This lab is currently under restricted access; ask a Purpleshirt for information.</p>
-<hr>            
+<hr>
 <h2>Working on Home Computers</h2>
 <p><strong><a name="Bevo" id="Bevo"></a>What is BevoWare and why do I need it? </strong>[ <a href="#top">back to top</a> ]</p>
 
@@ -363,30 +363,30 @@ to top</a> ]
 <p><strong><a name="StudentVersions"></a>Where can I get student versions of Microsoft Office, Adobe Photoshop, etc.? </strong>[ <a href="#top">back to top</a> ]</p>
 <p><a href="http://www.campuscomputer.com/">The Campus Computer Store</a> offers a variety of hardware, software, and peripherals at discounted prices to current UT students. The Campus Computer Store is located at FAC 109, on the first floor of the <a href="http://www.utexas.edu/computer/fac/">Flawn Academic Center</a>, on the West Mall across from the Tower.</p>
 
-<hr>       
+<hr>
 <h2>Students in the Classroom</h2>
 <p><strong><a name="Presentation"></a>My professor (or I) need some equipment for a class presentation or School of Information event. Can you help? </strong>[ <a href="#top">back to top</a> ]</p>
 
-<p>Obtain permission from the instructor to make a reservation in 
+<p>Obtain permission from the instructor to make a reservation in
 his/her name. You can make equipment reservations online - from the <a href="/">School of Information home page</a>, go to <a href="/technology/">Computing Resources</a>, and choose <a href="/technology/reservations/">Equipment Reservation</a> on the left-hand navigation bar. Choose <a href="https://www.ischool.utexas.edu/cgi-bin/reserve/form.cgi">Reserve Computer and AV Equipment</a>. Using this form, you can reserve equipment (computers, overhead projectors, TVs, VCRs, slide projectors, and camcorders) for a particular class. Follow the instructions to fill out the form, and submit it using the &quot;Submit Query&quot; button.</p>
 
 <p>Reservations may only be made for times in which the Lab is open for business. If you need equipment for other times, speak with the Technical Manager (<a href="mailto:support@ischool.utexas.edu">support@ischool.utexas.edu</a>). PLEASE MAKE SURE THAT YOUR RESERVATIONS ARE MADE AT LEAST 24 HOURS IN ADVANCE.</p>
 
 <p>To view existing reservations, click on the <a href="https://www.ischool.utexas.edu/cgi-bin/reserve/calendar.cgi">Current Reservations</a> link which appears on the Equipment Reservation Form. This should connect you to the IT Lab Equipment Reservations page. </p>
 <p>Please note that equipment can be borrowed only by students, faculty, and staff affiliated with the School of Information.</p>
-<hr>            
+<hr>
 <h2>Accounts and Passwords</h2>
 <p><strong><a name="SignUp"></a>How do I sign-up for a School of Information account? </strong>[ <a href="#top">back to top</a> ]</p>
 
 <p>Go to the <a href="https://www.ischool.utexas.edu/accounts/">iSchool Accounts Manager</a>. In order to quickly establish your identity and affiliation with the School of Information, you will be required to log in with your <A href="https://idmanager.its.utexas.edu/eid_self_help/">UT Austin EID</A> username and password to access the iSchool Accounts Manager.  Once you've logged in, you will be able to:</p>
 
-<ul> 
-<li>Request a new iSchool account</li> 
-<li>Request that your iSchool account password be reset</li> 
-<li>Request that your iSchool account be removed</li> 
-<li>Link an existing iSchool account with your EID (for accounts created prior to the iSchool Accounts Manager)</li> 
+<ul>
+<li>Request a new iSchool account</li>
+<li>Request that your iSchool account password be reset</li>
+<li>Request that your iSchool account be removed</li>
+<li>Link an existing iSchool account with your EID (for accounts created prior to the iSchool Accounts Manager)</li>
 
-</ul> 
+</ul>
 
 <p><strong><a name="HowLong" id="HowLong"></a>How long will it be before my account is activated? </strong>[ <a href="#top">back to top</a> ]</p>
 <p>You can check to see if it's active after 24 hours. You can check it by opening a browser window, going to the <a href="https://www.ischool.utexas.edu/accounts/">main Accounts page</a>, and clicking on the &quot;<a href="/cgi-bin/accounts/status2.cgi">Check the Status Page</a>&quot;. This should connect you to the Account Status page. Your name will be listed on this page if your account has been activated. You will also receive an email to your <a href="http://www.utexas.edu/its/policies/emailnotify.php">official UT email address</a> notifying you with the account has been created.</p>
@@ -513,7 +513,7 @@ his/her name. You can make equipment reservations online - from the <a href="/">
 <li>At the UNIX prompt ([username@fiat username]$), type:<br>
 nano .forward<br />
 (this creates a file called .forward using the "nano" editor)</li>
-<li>On the first line type the email address to which the mail should be forwarded, for 
+<li>On the first line type the email address to which the mail should be forwarded, for
 example:<br />
 username@alumni.utexas.net<br />
 (on the first line, no spaces before or after) </li>
@@ -521,7 +521,7 @@ username@alumni.utexas.net<br />
 <li>Exit nano: ctrl + x</li>
 
 </ol>
-School of Information mail is now forwarded to the address you specified.</p>    
+School of Information mail is now forwarded to the address you specified.</p>
 <hr size="1">
 <h2>Security</h2>
 <p><strong><a name="ProtectVirus"></a>How can I protect my computer from viruses and other malicious attacks? </strong>[ <a href="#top">back to top</a> ]</p>
@@ -577,11 +577,11 @@ School of Information mail is now forwarded to the address you specified.</p>
 
 	<p><strong><a name="PineAttach"></a>How do I attach a file to an email message in Pine? </strong>[ <a href="#top">back to top</a> ]</p>
 
-	<p>First, you must save the file to your School of Information account, by using either SSH Secure Shell (on a PC) or Fetch (for a Mac). 
+	<p>First, you must save the file to your School of Information account, by using either SSH Secure Shell (on a PC) or Fetch (for a Mac).
 	<ol>
 	<li>Within Pine, type &quot;c&quot; to compose a new message. Fill in an address for the recipient(s). Put the cursor on the attachment line at the top of the screen.</li>
 
-	<li>If you know the name and location of your file, you may type it in here. If not: 
+	<li>If you know the name and location of your file, you may type it in here. If not:
 	<ol>
 	<li>Type Ctrl-&quot;t&quot; to view the files/directories available in your School of Information directory.</li>
 
@@ -635,12 +635,12 @@ we should have one less process listed (and probably only one left): </p>
 
 	<p><strong>NOTE:</strong> Misbehaving Pine processes are often caused when your connection to the School of Information server is unexpectedly interrupted, but it can also happen if you accidentally hit Ctrl-Z and suspend your Pine process. If this has happened, there are two things you can do. First, right after you hit Ctrl-Z, you should get a bash$ prompt. If you type <code>fg</code> at this prompt, you should be immediately returned to Pine. In addition, when you first start Pine, you can type 'S' to change your setup, type 'C' for the config screen and receive a list of options you can set. If you page down several screens you will see an option that reads:
 	</p>
-	<p><code>&lt; &gt; Enable Suspend</code></p> 
-	
+	<p><code>&lt; &gt; Enable Suspend</code></p>
+
 <p>If there is as X between the &lt; &gt;, you should hit 'X' to unmark that option, type 'E' to exit setup, and type 'Y' to confirm your change. This should prevent Ctrl-Z from throwing you out of your Pine process in the future.</p>
 
 <hr>
-<h2>Software Questions</h2>	
+<h2>Software Questions</h2>
 	<p><strong><a name="HTMLEditor"></a>My instructor wants me to use an &quot;HTML editor.&quot; What's that? </strong>[ <a href="#top">back to top</a> ]</p>
 
 	<p>An HTML editor is a program that assists you in writing HTML code either by proofing your HTML or providing the ease of a WYSIWYG (What You See Is What You Get) environment in which you can quickly assemble and edit certain HTML elements.</p>
@@ -780,6 +780,7 @@ we should have one less process listed (and probably only one left): </p>
 <p><strong><a name="DiskError"></a>The machine I want to use is displaying a black screen with the words &quot;Non-system disk or disk error.&quot; Now what? </strong>[<a href="#top">back to top</a> ]</p>
 
 <p>Remove all media and restart the machine. It could also mean that there has been some kind of hard drive failure. You'll need to contact a Lab staff member if it continues to occur.</p>
-	
-	
+
+
 </div>
+

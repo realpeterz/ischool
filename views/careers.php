@@ -1,5 +1,5 @@
 <div id="rightcolumn" class="grid_9 careers">
-	<h2>CAREER SERVICES OFFICE </h2>
+	<h1>CAREER SERVICES OFFICE </h1>
 	<p>
 		Enter the <a href="http://www.ischool.utexas.edu/jobweb/">iSchool JobWeb</a>
 	</p>
@@ -32,3 +32,4 @@
 		If you are one of our valued alumni and you want to participate in our showcase, please contact Tara Iagulli, Director of Career Services.
 	</p>
 </div>
+

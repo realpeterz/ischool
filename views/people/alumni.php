@@ -1,5 +1,5 @@
 <div id="rightcolumn" class="grid_9 programs">
-<h2>ALUMNI </h2>
+<h1>ALUMNI </h1>
 <p>Please keep your alumni records up to date using the <a href="https://www.texasexes.org/login/login.asp" class="External">online change of address form</a></p>
 
 <h2>News and Updates</h2>
@@ -57,8 +57,9 @@ The international scholastic honor society for library and information science
 
 <p>
 <a href="http://www.TexasExes.org" class="External">Ex-Students' Association</a><br>
-Look up alumni on the Ex-Students' Association directory. You must register 
-as an alumni with the service to perform searches, but the service and 
+Look up alumni on the Ex-Students' Association directory. You must register
+as an alumni with the service to perform searches, but the service and
 e-mail forwarding are free.<br>
 </p>
 </div>
+

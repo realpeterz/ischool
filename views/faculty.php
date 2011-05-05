@@ -1,10 +1,10 @@
-<div id="rightcolumn" class="grid_9">	
-<h2>Faculty Directory</h2>
+<div id="rightcolumn" class="grid_9">
+<h1>FACULTY DIRECTORY</h1>
 <ul id="filters">
 		<li><a id="getall" href="#" data-filter="*">All faculty members</a></li>
-		<br />
 		<li><a href="#" data-filter=".administrative">Administrative</a></li>
 		<li><a href="#" data-filter=".full-time">Full time faculty</a></li>
+				<br />
 		<li><a href="#" data-filter=".joint">Joint pointees</a></li>
 		<li><a href="#" data-filter=".part-time">Part time faculty</a></li>
 		<li><a href="#" data-filter=".assistant-instructor">Assistant instructors</a></li>
@@ -56,7 +56,7 @@ require_once "lib/php_on_couch/couchClient.php";
 require_once "lib/php_on_couch/couchDocument.php";
 
 $client = new couchClient($couch_dsn,$couch_db);
-	
+
 try {
 	$faculty = $client->getDoc('p155');
 } catch (Exception $e) {
@@ -123,11 +123,11 @@ try {
 
 	<?php endforeach; ?>
 </div> -->
-	
+
 </div>
 
 <script id="facultyTemplate" type="text/x-jquery-tmpl">
-		
+
 			<li class="faculty ${category}">
 						<a href="${href}">
 							<img src="${src}" alt="${name}" />
@@ -142,9 +142,9 @@ try {
 
 
 <script type="text/javascript">
-	
+
 	$(function() {
-	
+
 		jQuery.getScript( 'js/jquery.tmpl.min.js' , function(){ //loading jQuery templating library
 			$.ajax({
 						type: 'GET',
@@ -154,38 +154,39 @@ try {
 								var persons = [];
 								$.each(json.rows, function(i, person){
 									persons.push(person.value);
-								})		
-							
-							
+								})
+
+
 								// Compile the inline template as a named template
 								var facultyTemplate = $( "#facultyTemplate" ).template();
-							
-							
+
+
 								// Render the movies data using the named template: "summaryTemplate"
-								$.tmpl( facultyTemplate, persons ).appendTo( "ul.box" );		
-								
-								
-							
-								
+								$.tmpl( facultyTemplate, persons ).appendTo( "ul.box" );
+
+
+
+
 									$(function() {
 										$('#faculty-wrap').isotope({
-											itemSelector : '.faculty', 
+											itemSelector : '.faculty',
 											layoutMode : 'fitRows',
 											animationEngine: "best-available"
 										});
 									});
-						
+
 									$('#filters a').click(function(){
 								 	 	var selector = $(this).attr('data-filter');
 										$('#faculty-wrap').isotope({ filter: selector });
 										return false;
 									});
-								
-								
+
+
 						} // end of success callback
 			}); // end of Ajax
 		});
-	
-				
+
+
 	});
 </script>
+

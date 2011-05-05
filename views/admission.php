@@ -1,5 +1,5 @@
 <div id="rightcolumn" class="grid_9 admissions">
-	<h2>ADMISSIONS </h2>
+	<h1>ADMISSIONS </h1>
 	<!-- use h2 for all headings please -->
 	<p>
 		 Enter the <a href="http://www.ischool.utexas.edu/jobweb/">iSchool JobWeb</a>
@@ -35,3 +35,4 @@
 		 Questions? Contact the School of Information at <a href="mailto:info@ischool.utexas.edu">info@ischool.utexas.edu</a>
 	</p>
 </div>
+

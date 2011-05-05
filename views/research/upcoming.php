@@ -1,7 +1,7 @@
 <div id="rightcolumn" class="grid_9 research">
-			
-			<h2>
-						UPCOMING COLLOQUIA, LECTURES, AND SYMPOSIA						</h2><!-- page_title -->
+
+			<h1>
+						UPCOMING COLLOQUIA, LECTURES, AND SYMPOSIA						</h1><!-- page_title -->
 
 
 <!-- ####################### BEGIN PAGE CONTENT ####################### -->
@@ -18,8 +18,8 @@
 <p>These events are open to all, and all are invited to participate: faculty, students, and the public at large. Please visit this page often and feel free to invite your colleagues and friends. To suggest speakers or topics for inclusion in our series, please contact the <a href="mailto:research_environment@utlists.utexas.edu">Research Environment Committee</a>.</p>
 
 <h2>Location</h2>
-<p>The <a href="http://www.utexas.edu/maps/main/buildings/uta.html">UT Administration Building (UTA)</a> is located two blocks south of the main UT campus at <a 
-href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1616+Guadalupe+St,+Austin,+tx&amp;sll=37.0625,-95.677068&amp;sspn=48.641855,105.292969&amp;ie=UTF8&amp;hq=&amp;hnear=1616+Guadalupe+St,+Austin,+Travis,+Texas+78701&amp;z=17">1616 
+<p>The <a href="http://www.utexas.edu/maps/main/buildings/uta.html">UT Administration Building (UTA)</a> is located two blocks south of the main UT campus at <a
+href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1616+Guadalupe+St,+Austin,+tx&amp;sll=37.0625,-95.677068&amp;sspn=48.641855,105.292969&amp;ie=UTF8&amp;hq=&amp;hnear=1616+Guadalupe+St,+Austin,+Travis,+Texas+78701&amp;z=17">1616
   Guadalupe Street</a>, across the street from the Clay Pit restaurant and Dog &amp; Duck pub.  Refer to our <a href="http://www.ischool.utexas.edu/about/location.php">Location &amp; Directions page</a> for more information.</p>
 
   <p>&nbsp;</p>
@@ -31,7 +31,7 @@ href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;
       <label for="researchColloquia">&nbsp;Research Colloquia</label>
       <input class="input" type="radio" title="Select an event type" name="eventSelect" id="yahooSeries" value="yahooSeries" />
 
-      <label for="yahooSeries">&nbsp;Yahoo!-sponsored Seminars</label> 
+      <label for="yahooSeries">&nbsp;Yahoo!-sponsored Seminars</label>
       <input class="input" type="radio" title="Select an event type" name="eventSelect" id="all" value="all"checked />
       <label for="all">&nbsp;All Public Events</label><br /><br />
     <input type="submit" value="Filter Events" />
@@ -52,7 +52,7 @@ href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;
 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;April 25</p>
-<p><strong>Location</strong>:&nbsp;&nbsp;UTA 5.522</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;UTA 5.522</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;4:00-5:00 pm</p>
 <p>Julie Mosbo, a UT iSchool graduate and the Preservation Librarian at Southern Illinois, will give a talk on the state of preservation.</p>
 </div>
@@ -60,7 +60,7 @@ href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;
 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;April 26</p>
-<p><strong>Location</strong>:&nbsp;&nbsp;</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;3:15-5:00 pm</p>
 <p>Abstract:<br />
  <br />
@@ -75,7 +75,7 @@ Holly Lanham, PhD, MBA, is an Assistant Professor of Medicine at The University 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;April 27</p>
 
-<p><strong>Location</strong>:&nbsp;&nbsp;Book Lab (UTA 1.506A)</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;Book Lab (UTA 1.506A)</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;4:00-5:00 pm</p>
 <p>Karen Pavelka, UT iSchool lecturer in conservation, will demonstrate the deterioration effects on watercolor art, the methods used to preserve such art, and the importance of preservation</p>
 </div>
@@ -83,7 +83,7 @@ Holly Lanham, PhD, MBA, is an Assistant Professor of Medicine at The University 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;April 28</p>
 
-<p><strong>Location</strong>:&nbsp;&nbsp;iSchool Tocker Student Lounge</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;iSchool Tocker Student Lounge</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;11:30-1:30 pm</p>
 <p>Snowden Becker, current iSchool PhD student, will demonstrate the techniques of using and preserving film.</p>
 </div>
@@ -91,7 +91,7 @@ Holly Lanham, PhD, MBA, is an Assistant Professor of Medicine at The University 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;April 28</p>
 
-<p><strong>Location</strong>:&nbsp;&nbsp;UTA 5.522</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;UTA 5.522</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;4:00-5:00 pm</p>
 <p>Melissa Tedone, a UT iSchool graduate and the Conservator at Iowa State, will give a talk on the state of conservation.</p>
 </div>
@@ -99,7 +99,7 @@ Holly Lanham, PhD, MBA, is an Assistant Professor of Medicine at The University 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;May 3</p>
 
-<p><strong>Location</strong>:&nbsp;&nbsp;UTA 5.522</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;UTA 5.522</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;3:15-5:00 pm</p>
 <p>Type of Talk: Weekly Research Colloquium<br />
 <br />
@@ -120,7 +120,7 @@ Andruid Kerne is Associate Professor of Computer Science and Engineering at Texa
 
 <div style='margin:0 45px 0 45px'>
 <p><strong>Date</strong>:&nbsp;&nbsp;May 6</p>
-<p><strong>Location</strong>:&nbsp;&nbsp;</p> 
+<p><strong>Location</strong>:&nbsp;&nbsp;</p>
 <p><strong>Time</strong>:&nbsp;&nbsp;12:00-4:00 pm</p>
 <p>The School of Information's Spring 2011 Showcase will feature posters and live demonstrations showcasing student works-in-progress. Further event details and duration are TBD.</p>
 </div>
@@ -134,3 +134,4 @@ Andruid Kerne is Associate Professor of Computer Science and Engineering at Texa
 
 
 </div>
+

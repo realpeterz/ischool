@@ -1,7 +1,7 @@
 <!-- use the same id and class name except that "programs" would be replaced by your custom class name for your page -->
 <div id="rightcolumn" class="grid_9 programs">
 
-<h2>TA DESCRIPTION OF ROLES AND RESPONSIBILITIES</h2> <!-- use h2 for all headings please -->
+<h1>TA DESCRIPTION OF ROLES AND RESPONSIBILITIES</h1> <!-- use h2 for all headings please -->
 
 <h2>Purpose</h2>
 
@@ -48,3 +48,4 @@
 	</ol>
 
 </div>
+

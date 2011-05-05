@@ -5,7 +5,7 @@
 
 <p>You need a School of Information account to use the computers in the IT Lab, to claim your School of Information email address and to publish Web pages.</p>
 
-<p><a href="https://www.ischool.utexas.edu/accounts/">School of Information Account Sign-up</a> | <a href="http://www.ischool.utexas.edu/cgi-bin/accounts/status2.cgi">Check Account Status</a> | <a href="faq.php#SignUp">Account
+<p><a href="https://www.ischool.utexas.edu/accounts/">School of Information Account Sign-up</a> | <a href="http://www.ischool.utexas.edu/cgi-bin/accounts/status2.cgi">Check Account Status</a> | <a href="index.php?subsite=technology&page=faq#SignUp" data-page="faq">Account
 FAQs</a></p>
 
 <p><a href="https://idmanager.its.utexas.edu/eid_self_help/">UT EID</a><br />

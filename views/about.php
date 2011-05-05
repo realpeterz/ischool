@@ -1,7 +1,7 @@
  <div id="rightcolumn" class="grid_9 about">
-            <h2> The School of Information</h2>
-            <h2> preserve the past::manage the present:: design the future</h2>
-            <p>Information follows a life cycle from creation, through access and use, to preservation. Without skilled professionals managing and designing the systems and services that provide people and groups with information, this valuable resource can be lost, remain hidden, and be rendered useless or non-accessible.</p>
+            <div align="center"><img src="images/about_slogan.jpg"/>
+                      </div>
+  <p>Information follows a life cycle from creation, through access and use, to preservation. Without skilled professionals managing and designing the systems and services that provide people and groups with information, this valuable resource can be lost, remain hidden, and be rendered useless or non-accessible.</p>
             <P>Our focus is on information in its social context, from a single user searching for a document, to a government determining the access of its citizenry to public records. Our work reaches into schools and corporations, design companies and libraries, museums and archives, wherever people search for, read and store documented knowledge.</P><img src="images/mission.jpg" align="right" />
               <p>Our values are human-centered. Information is a social resource, and we educate the professionals who will ensure its continuity, its usability, and its accessibility, now and into the future.</p>
               <h2>Why study here?</h2>

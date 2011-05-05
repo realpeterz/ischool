@@ -1,13 +1,13 @@
 <!-- use the same id and class name except that "programs" would be replaced by your custom class name for your page -->
 <div id="rightcolumn" class="grid_9 programs">
 
-<h2>ACADEMIC PROGRAMS</h2> <!-- use h2 for all headings please -->
+<h1>ACADEMIC PROGRAMS</h1>
 
 <p>The School of Information offers programs leading to the Master of Science in Information Studies degree, a Certificate of Advanced Study, a specialization in Preservation and Conservation Studies, a Learning Resources Certification for school librarians, and the Doctor of Philosophy degree. In its most recent ranking of LIS programs, U.S. News and World Report ranked the School of Information among the top ten LIS programs in the nation.</p> <!-- wrap any paragraph in p tags please -->
     <h2>Degree Programs</h2>
 
     <ul> <!-- ul>li>a for this kinda link lists -->
-        <li><a href="http://www.ischool.utexas.edu/programs/phd.php">PhD - Doctor of Philosophy</a></li> 
+        <li><a href="http://www.ischool.utexas.edu/programs/phd.php">PhD - Doctor of Philosophy</a></li>
         <li><a href="http://www.ischool.utexas.edu/programs/masters/">MSIS - Master of Science in Information Studies</a></li>
         <li><a href="http://www.ischool.utexas.edu/programs/minor.php">Minor - Undergraduate Minor</a></li>
         <!-- please put the absolute link in the href attribute in case we don't have time later to mess with one more level down the site. -->
@@ -42,3 +42,4 @@
  <p>Questions? Contact the School of Information at <a href="mailto:info@ischool.utexas.edu">info@ischool.utexas.edu</a></p><!-- an email address is not just an url. Don't forget to put "mailto:" -->
 
 </div>
+

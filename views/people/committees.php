@@ -34,6 +34,7 @@ ul {
 
 
 <a name="Admissions"></a>
+<h1>COMMITTEES</h1>
 <h2>Admissions and Awards</h2>
 
 <p><em>Charge:</em> Process the application pool and determine admissions and allocation of relevant awards and support.</p>
@@ -64,7 +65,7 @@ ul {
 	<li>Aaron Ulmer (staff liaison)</li>
 	<li>Ariel Cummins (student rep)</li>
 	<li>Ramona Broussard (student rep)</li>
-	
+
 </ul>
 
 
@@ -181,7 +182,7 @@ ul {
 <li>Quinn Stewart</li>
 <li>Kathryn Kramer (student rep)</li>
 </ul>
-</div>	
+</div>
 <br clear="all">
 
 <h2>Ad Hoc Committees:</h2>
@@ -197,3 +198,4 @@ ul {
 <li>Jo Lammert (student rep)</li>
 </ul>
 </div>
+

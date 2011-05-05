@@ -1,5 +1,5 @@
 <div id="rightcolumn" class="grid_9 programs">
-<h2>STUDENTS</h2>
+<h1>STUDENTS</h1>
 <p><i>Search the University of Texas Student/Faculty/Staff directory</i></p>
 <form name="form1" id="form1" action="http://www.utexas.edu/directory/index.php" method="get">
 	<label for="searchInput" style="display: none;">Search For</label>
@@ -18,7 +18,8 @@
 		search.
 	</label>
 
-	
+
 	<button type="submit" name="submit" id="searchsubmit">Search</button>
 </form>
 </div>
+

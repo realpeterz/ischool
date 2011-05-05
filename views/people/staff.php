@@ -1,6 +1,6 @@
 <div id="rightcolumn" class="grid_9 research">
-<h2>
-						STAFF DIRECTORY						</h2><!-- page_title -->
+<h1>
+						STAFF DIRECTORY						</h1><!-- page_title -->
 
 
 <!-- ####################### BEGIN PAGE CONTENT ####################### -->

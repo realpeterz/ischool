@@ -2,6 +2,7 @@ body  {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	background: #ffffff;
+
 }
 
 
@@ -40,7 +41,7 @@ h1 {
 }
 
 #logo {
-	
+
 }
 
 /* top navigation */
@@ -120,12 +121,12 @@ h1 {
 	color: #fff;
 	float:none;
 	width:100%;
-	
+
 }
 #nav ul a{
 	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
 	display:block;
-	
+
 }
 #nav li:hover ul{ /* Display the dropdown on hover */
 	left:0; /* Bring back on-screen when needed */
@@ -199,7 +200,7 @@ h1 {
 	font-size:15px;
 	line-height: 2.2em;
 	text-align: left;
-                  text-decoration:none;	
+                  text-decoration:none;
                   padding: 0 10px 0 36px;
                   margin:0;
 }
@@ -211,8 +212,8 @@ h1 {
 }
 
 
-#navilist dd,dl { 
-                 margin: 0; 
+#navilist dd,dl {
+                 margin: 0;
 }
 
 #navilist ul {
@@ -226,16 +227,16 @@ h1 {
 }
 
 
-#navilist dt span.expand { 
+#navilist dt span.expand {
 	  color: #CB5726;
     float: left;
     font-size: 2em;
     margin-top:11px;
     margin-left: 0.4em;
-    cursor:pointer; 
+    cursor:pointer;
     text-indent:-9999px;
     width:28px;height:28px;
-    
+
 }
 
 .expand_up {
@@ -277,11 +278,11 @@ h1 {
 
 
 /* slider caption */
-#caption { 
-	width: 220px; 
+#caption {
+	width: 220px;
 	/* overflow:hidden; */
 	float:right;
-	height:320px;	
+	height:320px;
 	position:relative;
 }
 
@@ -340,33 +341,21 @@ h1 {
 
 
 #footer {
-	color:#FFFFFF;
-	text-align:right;
-	height:100px;
+	color:#fff;
 	margin-top: 40px;
-	background-color: #ADADAD;
-	background-image: none;
-	background-repeat: no-repeat;
-	width: 940px;
-	line-height: 1.6em;
-	margin-bottom: 20px;
+	background:#A5A5A5;
+	width:100%;
+	overflow:hidden;
+	padding-top:1.5em;
+	/* border-top:1px solid #696969; */
 }
-#footer img {
-	float: left;
-	margin: 30px 0 0 20px;
-}
-#footer div {
-	padding-right: 20px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-
+#footer .copyright{ text-align:center; margin-top:1em;}
+#footer h3 { color:#444; }
+#footer p { color:#555; }
 #footer a {
-	padding-right: 5px;
-	padding-left: 5px;
 	color:#FFFFFF;
 	font-size:12px;
-	text-decoration: underline;
+	text-decoration:none;
 }
 
 #footer a:hover {
@@ -374,6 +363,8 @@ h1 {
 	font-size:12px;
 	text-decoration:none;
 }
+
+#footer ul li { list-style:disc; /* margin-left:15px; */  }
 
 
 
@@ -388,50 +379,21 @@ h1 {
 
 /* webkit play for social icons */
 
-#icons img { 
+#icons img {
  	-webkit-transition:all 1s linear;
   }
- #icons img:hover {  
- 	-webkit-transform: rotate(360deg); 
+ #icons img:hover {
+ 	-webkit-transform: rotate(360deg);
  }
 
 
-@font-face { font-family: Future; src: url('fonts/future.ttf'); } 
-@font-face { font-family: Ancient; src: url('fonts/jancieni.ttf'); } 
+@font-face { font-family: Future; src: url('fonts/future.ttf'); }
+@font-face { font-family: Ancient; src: url('fonts/jancieni.ttf'); }
 @font-face { font-family: Opificio; src: url('fonts/Opificio_Bold.ttf'); }
 .slogan { font:18px/20px "Ancient", serif; margin-top:20px; color: #353639;}
 
 
-/**** Isotope filtering ****/
 
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-.isotope,
-.isotope .isotope-item {
-  /* change duration value to whatever you like */
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.isotope {
-  -webkit-transition-property: height, width;
-     -moz-transition-property: height, width;
-          transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-     -moz-transition-property:    -moz-transform, opacity;
-          transition-property:         transform, opacity;
-}
 
 div#rightcolumn ul.box > li a { color:#227DAA; text-decoration: none;}
 div#rightcolumn ul.box > li a:hover { color: #d96c00; }
@@ -445,9 +407,14 @@ li { list-style:none;  }
 #faculty-wrap { clear:both; }
 
 
-#rightcolumn #filters a { padding: 3px; color:#555; background:#eee; }
+#rightcolumn #filters a { padding-left: 5px; padding-right: 5px; color:#555; background:#eee; }
+#rightcolumn #filters a:hover { color:#DB8707; }
+#rightcolumn #filters a.active { color:#DB8707; }
 #getall { margin-bottom:1em; }
-#filters li { float:left; margin-right:1em;}
+#filters li { float:left; margin-right:1em; display:block; margin-bottom: 0.5em; }
+#rightcolumn ul li { list-style:disc; margin-left:15px;}
+#rightcolumn ul.tabs li { list-style:none; margin-left:0px;}
+#rightcolumn ul#filters li, #rightcolumn ul#faculty-wrap li { margin-left:0; }
 
 
 ul.box {
@@ -476,17 +443,307 @@ box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; }
 
 
-div#rightcolumn { color:#333; } 
-div#rightcolumn h2 { color:#CB5726; }
+div#rightcolumn { color:#333; }
+div#rightcolumn h1 { color:#CB5726; font-size:18px; }
+div#rightcolumn h2{ color:#666666; font-size:16px;}
 div#rightcolumn a { color: #DB8707; text-decoration:none; }
 div#rightcolumn a:hover { color: #4B7FAA; text-decoration:none;}
 
 
+/*** CSS for Fields of Study Page ***/
+
+/* The styling for boxes containing links to courses.
+cursor: pointer will make the boxes look like links to the user. */
+.fields {
+background: #FFFFFF;
+border: none;
+width:150px;
+height:122px;
+margin:0 5px 5px 0;
+padding:0 5px 0 5px;
+cursor: pointer;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 50px rgba(0, 0, 0, 0.12) inset;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 50px rgba(0, 0, 0, 0.12) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 50px rgba(0, 0, 0, 0.12) inset;
+}
+
+/* A JavaScript function changes .fields to .bluelinks with a mouse hover. */
+.bluelinks {
+background:#FFFFFF;
+width:150px;
+height:122px;
+border: none;
+margin:0 5px 5px 0;
+padding:0 5px 0 5px;
+cursor: pointer;
+box-shadow: 0 0 5px 2px #3b95df, 0 0 50px rgba(0, 0, 0, 0.07) inset;;
+-webkit-box-shadow: 0 0 5px 2px #3b95df, 0 0 50px rgba(0, 0, 0, 0.07) inset;;
+-moz-box-shadow: 0 0 5px 2px #3b95df, 0 0 50px rgba(0, 0, 0, 0.07) inset;;
+}
+
+#rightcolumn .fields p { color:black; text-decoration: none;}
+
+#rightcolumn .fields h3 { color:black; text-decoration: none;}
+
+#rightcolumn .bluelinks p { color:#3b95df; text-decoration: none;}
+
+#rightcolumn .bluelinks h3 { color:#3b95df; text-decoration: none;}
+
+/* .title is the name of the courses within either .fields or .bluelinks */
+.title {font-size:0.9em;}
+
+/* this is where the photo for each field appears. The position is defined here so that
+#textcontent and #textfirstcontent can alter their position in relation to where the browser
+displays #photobox. */
+
+#photobox {
+z-index:1;
+position: relative;
+}
+
+/* #contentbox is a gray box with rounded corners below all content in #rightcolumn */
+#contentbox {
+background-color:#bfbfbf;
+border-radius: 10px;
+padding: 20px;
+z-index:0;
+}
+
+/* this shortens the gap between the top of #contentbox and the first bit of content */
+p#topparagraph {
+margin:0;
+padding:0;
+}
+
+/* the link sending the user back to the top of the page, which occurs only once */
+#rightcolumn a#returntotop {
+text-decoration:none;
+color:white;
+font-size: 1.15em;
+}
+
+#rightcolumn a#returntotop:hover {
+text-shadow: white 0 0 0.2em;
+}
+
+/* this is the slightly transparent gray box that appears over the photo when the user first opens the browser.
+It is positioned to appear above the fold. */
+#textfirstbox {
+background-color:#555;
+z-index:5;
+position: absolute;
+top:20px;
+right:18px;
+filter:alpha(opacity=65);
+opacity:0.65;
+width: 200px;
+height: 380px;
+}
+
+/* this contains white text that appears opaque above the transparent gray box described above. This text has
+to be in a separate div, or it will inherent the transparency of its parent */
+#textfirstcontent {
+color: white;
+text-size: 0.8 em;
+font-family: sans-serif;
+filter:alpha(opacity=100);
+opacity:1.0;
+z-index:6;
+position: absolute;
+top:20px;
+right:28px;
+width:180px;
+line-height: 200%;
+}
+
+#textfirstcontent p a{
+color: white;
+text-decoration: underline;
+}
+
+#textfirstcontent p a:hover{
+color: #d2e6f7;
+text-decoration: none;
+}
+
+#textfirstcontent h3 {
+text-shadow: #aaa 0 0 0.7em;
+}
+
+/* this is the same as #textfirstcontent, but is positioned to a different area when the user clicks one of the links
+to read about a field of study */
+#textbox {
+background-color:#555;
+z-index:5;
+position: absolute;
+top:280px;
+right:15px;
+filter:alpha(opacity=65);
+opacity:0.65;
+width: 630px;
+height: 130px;
+}
+
+/* this contains the text that appears over #textbox once the user has clicked on a link */
+#textcontent {
+color: white;
+text-size: 0.8 em;
+font-family: sans-serif;
+filter:alpha(opacity=100);
+opacity:1.0;
+z-index:6;
+position: absolute;
+top:280px;
+right:25px;
+width:610px;
+height: 130px;
+line-height: 200%;
+}
+
+#textcontent p a{
+color: white;
+text-decoration: underline;
+}
+
+#textcontent p a:hover{
+color: #d2e6f7;
+text-decoration: none;
+}
+
+#textcontent h3 {
+text-shadow: #ddd 0 0 0.6em;
+}
+
+/* #rightcolumncontent contains all content unique to the fields of study page. All other content belongs to the navbars and footer. */
+#rightcolumncontent {
+  padding-bottom: 1.0em;
+}
+
+#rightcolumncontent h3 {
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #7a551a;
+}
+
+/* the following anchor styles affect the fields of study links */
+#rightcolumncontent #fieldsofstudy a {
+   font-size: 1.05em;
+   color: #d88d17;
+   background: #fff;
+   font-family: sans-serif;
+   padding: 0.25em 0.6em;
+   margin-bottom: 0.2em;
+}
+
+#rightcolumncontent #fieldsofstudy a:hover {
+   color: #7a551a;
+}
+
+#rightcolumncontent #fieldsofstudy a.selected {
+   font-style: italic;
+   color: #7a551a;
+}
 
 
+/* this list will contain all the field of study links */
+#rightcolumncontent ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* this puts the list items in horizonal rows instead of long lists. */
+#rightcolumncontent .floated li {
+  float: left;
+  list-style: none;
+  margin-left:0;
+}
+
+#rightcolumncontent li a {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  text-decoration:none;
+  margin-bottom: 0.2em;
+}
 
 
+/*** submenu rightcolumncontent ***/
 
+/* the following rules create the submenus that appear for faceted categories such as
+"librarianship" or "preservation" within the Fields of Study page. */
 
+ul.subnavlist {
+display: none;
+}
 
+#rightcolumncontent ul.subnavlist li {
+float: none;
+}
+
+#rightcolumn #fieldsofstudy ul.subnavlist li a {
+padding: 1px;
+margin: 0 0 0 10px;
+border-bottom: 1px solid #fff;
+background:#d88d17;
+color:white;
+}
+
+#rightcolumn #fieldsofstudy ul.subnavlist li a:hover {
+background:#e3ae5c;
+}
+
+li:hover ul.subnavlist {
+display: block;
+position: absolute;
+font-size: 1.05em;
+padding-top: 5px;
+filter:alpha(opacity=93);
+opacity:0.93;
+margin-left:3em;
+}
+
+li:hover ul.subnavlist li a {
+display: block;
+width: 10em;
+padding: 2px;
+}
+
+li:hover ul.subnavlist li a:before { content: " >> "; }
+
+/*** Fields of Study Isotope CSS ***/
+/* the following rules are necessary for the Isotope sorting animation to perform */
+
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+ /* change duration value to whatever you like */
+ -webkit-transition-duration: 1.0s;
+    -moz-transition-duration: 1.0s;
+         transition-duration: 1.0s;
+}
+
+.isotope {
+ -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+         transition-property: height, width;
+}
+
+.isotope .isotope-item {
+ -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property:    -moz-transform, opacity;
+         transition-property:         transform, opacity;
+}
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* tutorial page */
+.tut_title { font-size:1.3em; }
 

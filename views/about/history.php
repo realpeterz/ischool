@@ -1,5 +1,5 @@
 <div id="rightcolumn" class="grid_9 programs">
-	<h2>HISTORY AND TRADITION</h2>
+	<h1>HISTORY AND TRADITION</h1>
 	<p>
 		Located in a vibrant city known for its lakes, natural beauty, and creative people, the School of Information is one among thirteen other nationally ranked graduate and professional schools at the University of Texas at Austin (UT). As a part of the University, the School has access to the resources of the nation’s largest university--one growing in the center of a research and technology industry that also serves as a hub of the music and film industry.
 	</p>

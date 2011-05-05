@@ -1,10 +1,10 @@
-<div id="rightcolumn" class="grid_9">	
-<h2>Faculty Directory</h2>
+<div id="rightcolumn" class="grid_9">
+<h1>FACULTY DIRECTORY</h1>
 <ul id="filters">
-		<li><a id="getall" href="#" data-filter="*">All faculty members</a></li>
-		<br />
+		<li><a class="active" id="getall" href="#" data-filter="*">All faculty members</a></li>
 		<li><a href="#" data-filter=".administrative">Administrative</a></li>
 		<li><a href="#" data-filter=".full-time">Full time faculty</a></li>
+		<div class="clearfloat"></div>
 		<li><a href="#" data-filter=".joint">Joint pointees</a></li>
 		<li><a href="#" data-filter=".part-time">Part time faculty</a></li>
 		<li><a href="#" data-filter=".assistant-instructor">Assistant instructors</a></li>
@@ -13,6 +13,7 @@
 
 <ul class="box" id="faculty-wrap">
 </ul>
+</div>
 <?php ###  Script to insert faculty info to CouchDB #####
 /*$couch_dsn = "http://realpeterz:zwb1982626@realpeterz.cloudant.com/";
 $couch_db = "faculty";
@@ -45,7 +46,7 @@ endforeach; */
 
 
 
-<!-- <?php
+<?php /*
 
 
 $couch_dsn = "http://realpeterz:zwb1982626@realpeterz.cloudant.com/";
@@ -56,7 +57,7 @@ require_once "lib/php_on_couch/couchClient.php";
 require_once "lib/php_on_couch/couchDocument.php";
 
 $client = new couchClient($couch_dsn,$couch_db);
-	
+
 try {
 	$faculty = $client->getDoc('p155');
 } catch (Exception $e) {
@@ -67,7 +68,7 @@ try {
 	}
 	exit(1);
 }
-?> -->
+*/ ?>
 
 <!-- <div class="faculty <?php echo $faculty->category; ?>">
 			<div>
@@ -80,18 +81,18 @@ try {
 			<p class="title"><?php echo $faculty->title; ?></p>
 			<p class="phone"><?php echo $faculty->phone; ?></p>
 			<p class="office"><?php echo $faculty->office; ?></p>
-</div> -->
+</div> */
 
 
 
 
 
 
-<!-- <?php
+<php
 	require('lib/scrap_faculty.php');
 	$faculty = new Faculty("http://www.ischool.utexas.edu", "/people/faculty.php");
 	$faculty_members = $faculty->faculty_members;
-?> -->
+?>
 
 <!-- <div id="rightcolumn" class="grid_9">
 
@@ -123,11 +124,11 @@ try {
 
 	<?php endforeach; ?>
 </div> -->
-	
-</div>
+
+
 
 <script id="facultyTemplate" type="text/x-jquery-tmpl">
-		
+
 			<li class="faculty ${category}">
 						<a href="${href}">
 							<img src="${src}" alt="${name}" />
@@ -142,9 +143,14 @@ try {
 
 
 <script type="text/javascript">
-	
+
 	$(function() {
-	
+
+        $('#filters a').click(function(){
+            $('#filters a').removeClass('active');
+            $(this).addClass('active');
+        });
+
 		jQuery.getScript( 'js/jquery.tmpl.min.js' , function(){ //loading jQuery templating library
 			$.ajax({
 						type: 'GET',
@@ -154,38 +160,45 @@ try {
 								var persons = [];
 								$.each(json.rows, function(i, person){
 									persons.push(person.value);
-								})		
-							
-							
+								})
+
+
 								// Compile the inline template as a named template
 								var facultyTemplate = $( "#facultyTemplate" ).template();
-							
-							
+
+
 								// Render the movies data using the named template: "summaryTemplate"
-								$.tmpl( facultyTemplate, persons ).appendTo( "ul.box" );		
-								
-								
-							
-								
+								$.tmpl( facultyTemplate, persons ).appendTo( "ul.box" );
+
+
+
+
 									$(function() {
 										$('#faculty-wrap').isotope({
-											itemSelector : '.faculty', 
+											itemSelector : '.faculty',
 											layoutMode : 'fitRows',
-											animationEngine: "best-available"
+											animationEngine: "best-available",
+											getSortData : {
+                                                personname : function ( $elem ) {
+                                                return $elem.find('.person-name').text();
+                                                }
+                                            },
+                                            sortBy: 'personname'
 										});
 									});
-						
+
 									$('#filters a').click(function(){
 								 	 	var selector = $(this).attr('data-filter');
 										$('#faculty-wrap').isotope({ filter: selector });
 										return false;
 									});
-								
-								
+
+
 						} // end of success callback
 			}); // end of Ajax
 		});
-	
-				
+
+
 	});
 </script>
+

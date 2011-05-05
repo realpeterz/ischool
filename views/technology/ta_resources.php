@@ -30,8 +30,8 @@ basic IT tasks you'll be expected to complete. As always, if you have any questi
 
 <h2>Support and Tutorials</h2>
 
-<p>	<a href="tutorials.php">Tutorials</a><br />
-	<a href="support_staff.php">IT Services Support Staff</a><br />
-	<a href="short_courses.php">IT Services Short Courses</a><br /></p>
+<p>	<a href="index.php?subsite=technology&page=tutorials" data-page="tutorials">Tutorials</a><br />
+	<a href="index.php?subsite=technology&page=support_staff" data-page="support_staff">IT Services Support Staff</a><br />
+	<a href="index.php?subsite=technology&page=short_courses" data-page="short_courses">IT Services Short Courses</a><br /></p>
 
 </div>
