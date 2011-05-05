@@ -1,4 +1,4 @@
-<div id="rightcolumn" class="grid_9 programs">
+<div id="rightcolumn" class="grid_9 facultynstaff">
 
 <h1>INFORMATION FOR FACULTY AND STUFF </h1>
 

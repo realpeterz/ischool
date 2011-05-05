@@ -1,4 +1,4 @@
-<div id="rightcolumn" class="grid_9 programs">
+<div id="rightcolumn" class="grid_9 location">
 <h1>LOCATION AND DIRECTIONS </h1>
 <p>The iSchool is located in the <a href="http://www.utexas.edu/maps/main/buildings/uta.html">UT Administration Building (UTA)</a>, two blocks south of UT's main campus at <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1616+Guadalupe+St,+Austin,+tx&sll=37.0625,-95.677068&sspn=48.641855,105.292969&ie=UTF8&hq=&hnear=1616+Guadalupe+St,+Austin,+Travis,+Texas+78701&z=17">1616 Guadalupe Street</a>, across the street from the Clay Pit restaurant and Dog & Duck pub.</p>
 <img src="images/iSchool_exterior_small.jpg" height="250px"> <img src="images/uta_inset.gif" height="250px"/>

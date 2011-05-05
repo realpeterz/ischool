@@ -1,7 +1,6 @@
-<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
- // Set up a listener so that when anything with a class of 'tab' 
+ // Set up a listener so that when anything with a class of 'tab'
  // is clicked, this function is run.
  $('.tab').click(function () {
   // Remove the 'active' class from the active tab.
@@ -80,9 +79,9 @@ div.clear {
 			</li>
 			<li><a href="#" class="tab" rel="#tab_2_contents"><strong>Opportunities</strong></a></li>
 			<li><a href="#" class="tab" rel="#tab_3_contents"><strong>Associations</strong></a></li>
-			
+
 		</ul>
-		<!-- This is used so the contents don't appear to the 
+		<!-- This is used so the contents don't appear to the
            right of the tabs -->
 		<div class="clear">
 		</div>
@@ -92,11 +91,11 @@ div.clear {
 			<div id="tab_1_contents" class="tab_contents tab_contents_active">
 				<p><a href="http://www.ischool.utexas.edu/about/enews/index.php">Alumni E-News</a><br>
 	To subscribe, simply send an e-mail to the <a href="mailto:alumni-updates@ischool.utexas.edu">alumni updates mailing list</a>. After subscribing, you will receive a confirmation e-mail.To complete the process you will need to reply to this confirmation e-mail.</p>
-	
+
 	<p><a href="http://www.ischool.utexas.edu/careers/alumni_careers.php">Alumni Careers</a><br>
 	Keep track of the careers of your fellow alumni.</p>
 
-	
+
 	<p><a href="http://www.ischool.utexas.edu/people/alumni_profiles.php">Alumni Profiles</a><br>
 	News about alumni and their stories. </p>
 			</div>
@@ -105,10 +104,10 @@ div.clear {
 				<p><a href="http://www.ischool.utexas.edu/careers/">School of Information Career Services</a><br>
 	Find a job or hire a School of Information student.</p>
 
-	
+
 	<p><a href="http://www.ischool.utexas.edu/programs/capstone/">Capstone Professional Experience Project</a><br>
 	Suggest a Professional Experience Project (PEP) or find a School of Information intern.</p>
-	
+
 	<p><a href="http://www.ischool.utexas.edu/development/">Development Office</a><br>
 	Help support the School of Information. There are many ways to give. Visit the Development Office to learn more.</p>
 
@@ -118,12 +117,13 @@ div.clear {
 				 <p><a href="http://www.ischool.utexas.edu/~betaeta/">Beta Eta Chapter, Beta Phi Mu</a><br>
 
 	The international scholastic honor society for library and information science</p>
-	
+
 	<p><a href="http://www.texasexes.org/">Ex-Students' Association</a><br>
 	Look up alumni on the Ex-Students' Association directory. You must register as an alumni with the service to perform searches, but the service and e-mail forwarding are free.</p>
 			</div>
-			
-			
+
+
 		</div>
 	</div>
 </div>
+
