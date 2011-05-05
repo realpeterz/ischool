@@ -1,4 +1,4 @@
-<div id="rightcolumn" class="grid_9">
+<div id="rightcolumn" class="grid_9 home">
 
 	<div id="slideContainer">
 		<div id="caption">
@@ -6,7 +6,7 @@
 		<div id="slider">
 		</div>
 	</div>
-	
+
 	<div class="clearfloat">
 	</div>
 	<div class="grid_3 alpha block">
@@ -36,15 +36,15 @@
 			<a href="http://www.ischool.utexas.edu/events/month.php"><img src="images/pink_shadow.png" alt="EVENTS"/></a>
 		</div>
 		<div class="blocktext">
-			<i>Tue, Apr 19</i>
+			<i>04/19/2011</i>
 			<p>
 				<a href="#"> Short course: Creating Your Own Capstone Poster</a>
 			</p>
-			<i>Wed, Apr 20</i>
+			<i>04/20/2011</i>
 			<p>
 				<a href="#"> Faculty Lunch</a>
 			</p>
-			<i>Thu, Apr 21</i>
+			<i>04/21/2011</i>
 			<p>
 				<a href="#"> ALA/TLA Job Hunting Webinar</a>
 			</p>
@@ -58,17 +58,17 @@
 			<img src="images/green_shadow.png" alt="HIGHLIGHT"/>
 		</div>
 		<div class="blocktext">
-			<i>04/19/2011</i>
+			<i>04/20/2011</i>
 			<p>
-				<a href="#"> CHIPS hosts Preservation Week at the iSchool</a>
+				<a href="http://www.guardian.co.uk/technology/gamesblog/2011/apr/20/digital-free-persuade-pay-cory-doctorow?utm_source=twitterfeed&utm_medium=twitter">Cory Doctorow on Intellectual Property in the Digital Era -- <i>The Guardian</i></a>
 			</p>
-			<i>04/15/2011</i>
+			<i>04/20/2011</i>
 			<p>
-				<a href="#"> Barbara Immroth featured on the Know site</a>
+				<a href="http://arstechnica.com/media/news/2011/04/kindle-lending-library-comes-with-strict-terms-preserved-notes.ars">Amazon Announces Terms of Kindle Lending Library -- <i>Ars Technica</i></a>
 			</p>
-			<i>04/07/2011</i>
+			<i>04/20/2011</i>
 			<p>
-				<a href="#"> Libraries & the Cultural Record Hosts Information History Symposium</a>
+				<a href="http://bits.blogs.nytimes.com/2011/04/20/3g-apple-ios-devices-secretly-storing-users-location/?ref=technology">Text: 3G Apple iOS Devices Store Users' Location Data -- <i>New York Times</i></a>
 			</p>
 		</div>
 		<div class="more">
@@ -77,3 +77,4 @@
 	</div>
 </div>
 <!-- end rightcolumn -->
+

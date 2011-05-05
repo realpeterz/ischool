@@ -1,6 +1,6 @@
 
 
-<div id="rightcolumn" class="grid_9">
+<div id="rightcolumn" class="grid_9 fieldsofstudy">
 
 	<div id="rightcolumncontent" class="clearfix">
 
@@ -14,18 +14,20 @@
 			<li><a href="#contentbox" data-filter=".phdcore">| Doctoral Core Curriculum |</a></li>
 
 			<!-- clear:both interrupts the float:left function, acting as a line break for the list items -->
-			<div style="clear:both;"></div>
+
 			<li><a href="#contentbox" data-filter=".undergrad">| Undergraduate Minor |</a></li>
-			<div style="clear:both;"></div>
+
+            <div style="clear:both;"></div>
+
 			<li><a href="#contentbox" data-filter=".archives">| Archives and Records Enterprise |</a></li>
 			<li><a href="#contentbox" data-filter=".business">| Business Information Services |</a></li>
 			<li><a href="#contentbox" data-filter=".collections">| Collections |</a></li>
 			<li><a href="#contentbox" data-filter=".digitallibraries">| Digital Libraries |</a></li>
-			<div style="clear:both;"></div>
+
 			<li><a href="#contentbox" data-filter=".health">| Health Information Services |</a></li>
 			<li><a href="#contentbox" data-filter=".history">| History |</a></li>
 			<li><a href="#contentbox" data-filter=".usability">| Information Architecture, Usability, and Design |</a></li>
-			<div style="clear:both;"></div>
+
 			<li><a href="#contentbox" data-filter=".ir">| Information Retrieval |</a></li>
 			<li><a href="#contentbox" data-filter=".legal">| Legal Information Services |</a></li>
 
@@ -41,7 +43,7 @@
 			</li>
 
 			<li><a href="#contentbox" data-filter=".management">| Management and Administration |</a></li>
-			<div style="clear:both;"></div>
+
 			<li><a href="#contentbox" data-filter=".museums">| Museum Curation |</a></li>
 			<li><a href="#contentbox" data-filter=".organizing">| Organizing Information, Cataloging, and Metadata |</a></li>
 			<li><a href="#contentbox" data-filter=".policy">| Policy |</a></li>
@@ -527,11 +529,11 @@
 </div>
 
 <script type="text/javascript">
-
+    $(function() {
 	// changes the tall photo caption to a wide caption along the bottom of the photo by changing a div class
 	function longCaption(){
-		document.getElementById('textfirstbox').id="textbox";
-		document.getElementById('textfirstcontent').id="textcontent";
+		$('#textfirstbox').attr('id', 'textbox');
+		$('#textfirstcontent').attr('id', 'textcontent');
 	}
 
 	// this isn't actually used, but would do the opposite of the function above.
@@ -542,7 +544,7 @@
 
 	// within the "fields-wrap" div, each subsequent div is sorted and animated by isotope, a jquery script.
 	// the isotope script is saved in the js folder.
-	$(function() {
+
 		$('#fields-wrap').isotope({
 			layoutMode : 'cellsByRow',
 			cellsByRow : {

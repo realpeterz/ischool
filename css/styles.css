@@ -289,8 +289,14 @@ h1 {
 
 #rightcolumn {
 	padding: 0;
+	font-size: 14px;
 
 }
+
+
+div.tab_contents_container { font-size:14px; }
+
+#rightcolumn.faculty, #rightcolumn.fieldsofstudy, #rightcolumn.home { font-size:12px; }
 #slideContainer b {
 	font-size: 36px;
 }
@@ -675,6 +681,7 @@ text-shadow: #ddd 0 0 0.6em;
 
 ul.subnavlist {
 display: none;
+z-index:1000;
 }
 
 #rightcolumncontent ul.subnavlist li {
