@@ -11,7 +11,7 @@
                 <h2>Phone:</h2>
                 <p>Tel: 512-471-3821 <br />
                 Fax: 512-471-3971</p>
-               <h2>Physical & Mailing Address:</h2>
+               <h2>Physical &amp; Mailing Address:</h2>
 
                 <p>Due to delivery problems, you must use this address exactly as indicated:</p>
 
@@ -25,7 +25,7 @@
             <div class="grid_6">
                 <div class="gmap">
                 <h2>Location</h2>
-                <a target="_blank" href="http://maps.google.com/maps?q=1616+Guadalupe+Street,+Austin,+TX&sll=30.279253,-97.742635&hl=en&sspn=0.006295,0.006295&ie=UTF8&hq=&hnear=1616+Guadalupe+St,+Austin,+Travis,+Texas+78701&ll=30.280027,-97.740405&spn=0.008617,0.026157&z=16"><img src="http://maps.google.com/maps/api/staticmap?center=1616+Guadalupe+Street,+Austin,+TX&zoom=16.5&size=380x300&maptype=roadmap&markers=color:orange%7Clabel:I%7C30.279254,-97.742635&sensor=false" alt="google map" style="margin:0;"/></a>
+                <a target="_blank" href="http://maps.google.com/maps?q=1616+Guadalupe+Street,+Austin,+TX&amp;sll=30.279253,-97.742635&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=1616+Guadalupe+St,+Austin,+Travis,+Texas+78701&amp;ll=30.280027,-97.740405&amp;spn=0.008617,0.026157&amp;z=16"><img src="http://maps.google.com/maps/api/staticmap?center=1616+Guadalupe+Street,+Austin,+TX&amp;zoom=16.5&amp;size=380x300&amp;maptype=roadmap&amp;markers=color:orange%7Clabel:I%7C30.279254,-97.742635&amp;sensor=false" alt="google map" style="margin:0;"/></a>
                 </div>
             </div>
 

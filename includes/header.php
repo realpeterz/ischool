@@ -33,7 +33,7 @@
 							<a href="http://www.ischool.utexas.edu/iSchoolNewsfeed.xml"><img src="images/social_icons/rss.png" alt="rss icon" title='rss'/></a>
 						</li>
 						<li>
-							<a href="http://www.linkedin.com/groups?mostPopular=&gid=3047563"><img src="images/social_icons/linkedin.png" alt="linked in icon" title='linkedin'/></a>
+							<a href="http://www.linkedin.com/groups?mostPopular=&amp;gid=3047563"><img src="images/social_icons/linkedin.png" alt="linked in icon" title='linkedin'/></a>
 						</li>
 						<li>
 							<a href="http://twitter.com/UTiSchool"><img src="images/social_icons/twitter.png" alt="twitter icon" title='twitter'/></a>
@@ -85,7 +85,7 @@
 				<li><a title="information for faculty and staff" href="index.php?subsite=facultynstaff"
 				<?php if(parse_subsite() == "facultynstaff"):?>
 						class="current"
-				<?php endif; ?>>Faculty & Staff</a>
+				<?php endif; ?>>Faculty &amp; Staff</a>
 				</li>
 				<li><a title="information for alumni" href="index.php?subsite=alumni"
 				<?php if(parse_subsite() == "alumni"):?>

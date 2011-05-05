@@ -24,7 +24,7 @@
 			</p>
 			<i>04/07/2011</i>
 			<p>
-				<a href="#"> Libraries & the Cultural Record Hosts Information History Symposium</a>
+				<a href="#"> Libraries &amp; the Cultural Record Hosts Information History Symposium</a>
 			</p>
 		</div>
 		<div class="more">
@@ -60,7 +60,7 @@
 		<div class="blocktext">
 			<i>04/20/2011</i>
 			<p>
-				<a href="http://www.guardian.co.uk/technology/gamesblog/2011/apr/20/digital-free-persuade-pay-cory-doctorow?utm_source=twitterfeed&utm_medium=twitter">Cory Doctorow on Intellectual Property in the Digital Era -- <i>The Guardian</i></a>
+				<a href="http://www.guardian.co.uk/technology/gamesblog/2011/apr/20/digital-free-persuade-pay-cory-doctorow?utm_source=twitterfeed&amp;utm_medium=twitter">Cory Doctorow on Intellectual Property in the Digital Era -- <i>The Guardian</i></a>
 			</p>
 			<i>04/20/2011</i>
 			<p>

@@ -395,9 +395,6 @@ div.tab_contents_container { font-size:14px; }
  }
 
 
-@font-face { font-family: Future; src: url('fonts/future.ttf'); }
-@font-face { font-family: Ancient; src: url('fonts/jancieni.ttf'); }
-@font-face { font-family: Opificio; src: url('fonts/Opificio_Bold.ttf'); }
 .slogan { font:18px/20px "Ancient", serif; margin-top:20px; color: #353639;}
 
 
