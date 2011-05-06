@@ -14,17 +14,18 @@
 			<a href="http://www.ischool.utexas.edu/about/news/"><img src="images/blue_shadow.png" alt="NEWS"/></a>
 		</div>
 		<div class="blocktext">
+			<i>05/06/2011</i>
+			<p>
+				<a href="http://www.ischool.utexas.edu/about/news/view_news_item.php?ID=328">iSchool Hosts 2011 Open House</a>
+			</p>
 			<i>04/19/2011</i>
 			<p>
-				<a href="#"> CHIPS hosts Preservation Week at the iSchool</a>
+				<a href="http://www.ischool.utexas.edu/about/news/view_news_item.php?ID=327">CHIPS hosts Preservation Week at the iSchool </a>
 			</p>
-			<i>04/15/2011</i>
-			<p>
-				<a href="#"> Barbara Immroth featured on the Know site</a>
-			</p>
+
 			<i>04/07/2011</i>
 			<p>
-				<a href="#"> Libraries &amp; the Cultural Record Hosts Information History Symposium</a>
+				<a href="http://www.ischool.utexas.edu/about/news/view_news_item.php?ID=327"> Libraries &amp; the Cultural Record Hosts Information History Symposium</a>
 			</p>
 		</div>
 		<div class="more">
@@ -36,18 +37,20 @@
 			<a href="http://www.ischool.utexas.edu/events/month.php"><img src="images/pink_shadow.png" alt="EVENTS"/></a>
 		</div>
 		<div class="blocktext">
-			<i>04/19/2011</i>
+			<i>05/06/2011</i>
 			<p>
-				<a href="#"> Short course: Creating Your Own Capstone Poster</a>
+				<a href="http://www.ischool.utexas.edu/events/includes/event.php"> School of Information 2011 Spring Open House</a>
 			</p>
-			<i>04/20/2011</i>
+
+			<i>05/06/2011</i>
 			<p>
-				<a href="#"> Faculty Lunch</a>
+				<a href="http://www.ischool.utexas.edu/events/includes/event.php"> Spring 2011 Capstone Poster Session</a>
 			</p>
-			<i>04/21/2011</i>
+			<i>05/04/2011</i>
 			<p>
-				<a href="#"> ALA/TLA Job Hunting Webinar</a>
+				<a href="http://www.ischool.utexas.edu/events/includes/event.php"> Austin Forum - Competitiveness, Congress and You</a>
 			</p>
+			
 		</div>
 		<div class="more">
 			<a href="http://www.ischool.utexas.edu/events/month.php"><img src="images/more-pink_shadow.png" alt="MORE..."/></a>
@@ -68,7 +71,7 @@
 			</p>
 			<i>04/20/2011</i>
 			<p>
-				<a href="http://bits.blogs.nytimes.com/2011/04/20/3g-apple-ios-devices-secretly-storing-users-location/?ref=technology">Text: 3G Apple iOS Devices Store Users' Location Data -- <i>New York Times</i></a>
+				<a href="http://bits.blogs.nytimes.com/2011/04/20/3g-apple-ios-devices-secretly-storing-users-location/?ref=technology">3G Apple iOS Devices Store Users' Location Data -- <i>New York Times</i></a>
 			</p>
 		</div>
 		<div class="more">

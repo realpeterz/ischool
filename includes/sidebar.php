@@ -9,7 +9,7 @@
 			<li><a href="index.php?subsite=about&amp;page=history" data-page="history">History and tradition</a></li>
 			<li><a href="index.php?subsite=about&amp;page=research" data-page="research">Research</a></li>
 			<li><a href="index.php?subsite=about&amp;page=ranking" data-page="ranking">Ranking</a></li>
-			<li><a href="index.php?subsite=fieldsofstudy" data-page="fieldsofstudy">Fields of study</a></li>
+			<li><a href="index.php?subsite=about&amp;page=fieldsofstudy" data-page="fieldsofstudy">Fields of study</a></li>
 			<li><a href="index.php?subsite=about&amp;page=news" data-page="news">News</a></li>
 			<li><a href="http://www.ischool.utexas.edu/events/month.php" data-page="calendar">Calendar</a></li>
 			<li><a href="index.php?subsite=about&amp;page=location" data-page="location">Location & Directions</a></li>
