@@ -42,7 +42,7 @@
 		jQuery.getScript( 'js/jquery.tmpl.min.js' , function(){ //loading jQuery templating library
 			$.ajax({
 						type: 'GET',
-						url: "https://realpeterz:zwb1982626@realpeterz.cloudant.com/faculty/_design/faculty/_view/all",
+						url: "https://realpeterz:password@realpeterz.cloudant.com/faculty/_design/faculty/_view/all",
 						dataType: "jsonp",
 						success: function(json){
 								var persons = [];
